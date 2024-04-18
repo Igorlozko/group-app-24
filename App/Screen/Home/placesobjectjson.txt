@@ -1,0 +1,4070 @@
+[
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2694464,
+                "lng": -6.1128033
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2709558302915,
+                    "lng": -6.111833369708498
+                },
+                "southwest": {
+                    "lat": 53.26825786970851,
+                    "lng": -6.114531330291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Fitzpatrick Castle Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1405,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103971649638559017513\">Fitzpatrick Castle Hotel</a>"
+                ],
+                "photo_reference": "ATplDJYgzrYGSRDw1S1QXKlEG4yImIWETjmYrA-Rfr6N4pcRdhIM6o5bWm6jMjqxfNIuXW-NFnHv2G9Ri1TeyHCG-unJiic5qY0Tl9Pr25_nsme9ckAdsMp5_IyFQZrE826PC7xTw5KdG6LSlrzzCI-wLd2JiEt56w4zcFvpU6GmKd1ykJjB",
+                "width": 2500
+            }
+        ],
+        "place_id": "ChIJtZT6S-oHZ0gRVdkGwJwuYCE",
+        "plus_code": {
+            "compound_code": "7V9P+QV Killiney, County Dublin, Ireland",
+            "global_code": "9C5M7V9P+QV"
+        },
+        "rating": 4.3,
+        "reference": "ChIJtZT6S-oHZ0gRVdkGwJwuYCE",
+        "scope": "GOOGLE",
+        "types": [
+            "gym",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2080,
+        "vicinity": "Killiney Hill Road, Killiney"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2923079,
+                "lng": -6.1336733
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.29374273029151,
+                    "lng": -6.132189519708497
+                },
+                "southwest": {
+                    "lat": 53.29104476970851,
+                    "lng": -6.134887480291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Royal Marine Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1363,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113896552423315263415\">Royal Marine Hotel</a>"
+                ],
+                "photo_reference": "ATplDJZlDWAbi2kk1WfoJlUk23G_vUrYWhSE2ohTg_glY_18JHxblOVT2n28Hgg2l4xX8SSEYHv7Ue2iCgM-95HDcZ62FNx-dE_Yji7swUH08bQ5h1U7Kz0B7sCkLmVDorafffZ6ZoCEGkeXc7vNkJjQatkbH3fkHEYueEhxasgG5PZje_KZ",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJs_drfiMGZ0gRr3-MjlnJNy4",
+        "plus_code": {
+            "compound_code": "7VR8+WG Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR8+WG"
+        },
+        "rating": 4.2,
+        "reference": "ChIJs_drfiMGZ0gRr3-MjlnJNy4",
+        "scope": "GOOGLE",
+        "types": [
+            "gym",
+            "spa",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2964,
+        "vicinity": "Marine Road, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2950469,
+                "lng": -6.202450699999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2963839302915,
+                    "lng": -6.201403269708498
+                },
+                "southwest": {
+                    "lat": 53.2936859697085,
+                    "lng": -6.204101230291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Talbot Hotel Stillorgan",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105216145249800467535\">Talbot Hotel Stillorgan</a>"
+                ],
+                "photo_reference": "ATplDJYUwk645xpyNfxkW9ZsqD6WrFfWRLM7Euxcti7N3TrqsmNuCj5LYckR68g3ajLMW2hS3RBqKpJNYiQ1aTk57FJH7AIuS5gy4tMd9ckVqA_kjR5532sP6MC4hNtReCJ8u8zlcFnIuy9imvb28t8TExjCnukl7TeTkjnEqr07bLztrdYz",
+                "width": 1600
+            }
+        ],
+        "place_id": "ChIJdR1mJCAJZ0gR-DvUgu3hFCk",
+        "plus_code": {
+            "compound_code": "7QWX+22 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7QWX+22"
+        },
+        "rating": 4.1,
+        "reference": "ChIJdR1mJCAJZ0gR-DvUgu3hFCk",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2133,
+        "vicinity": "Stillorgan Road, Stillorgan, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2920387,
+                "lng": -6.130653999999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.29344448029151,
+                    "lng": -6.129155519708497
+                },
+                "southwest": {
+                    "lat": 53.29074651970851,
+                    "lng": -6.131853480291501
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Haddington House",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 4385,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116460527488307867166\">Haddington House</a>"
+                ],
+                "photo_reference": "ATplDJYU9BTZDT2Pu67KJIspod8nEPp8wgy_JqVVc7WRu2Z8HpgJE7vZ2JKEwTRf8Cu_XcN3URIOooraNs35j48tlMV9rfnjL8mN8z-7g-gPy3bhrL9vSxCmDf6jBGFSqdRmb91xw9in2aNAdeTYNTKJ43kUwzoIq7NLS9mdNyC-FRKH2MOq",
+                "width": 8194
+            }
+        ],
+        "place_id": "ChIJjUQwqSQGZ0gRsSeuwy77CKU",
+        "plus_code": {
+            "compound_code": "7VR9+RP Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR9+RP"
+        },
+        "rating": 4.5,
+        "reference": "ChIJjUQwqSQGZ0gRsSeuwy77CKU",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 655,
+        "vicinity": "9-12, 9-12 Haddington Terrace, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2713246,
+                "lng": -6.206015
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2727011802915,
+                    "lng": -6.204428619708497
+                },
+                "southwest": {
+                    "lat": 53.2700032197085,
+                    "lng": -6.207126580291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Clayton Hotel Leopardstown",
+        "photos": [
+            {
+                "height": 1024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114389982597306178403\">Clayton Hotel Leopardstown</a>"
+                ],
+                "photo_reference": "ATplDJb-Z1uGkCQKN5CcWpTA5Jysnyd0cRrAyeK3ZHvDYO5GyrInXlsCycvDHukvnJHYF4ycMg6ScJFsx4a5bHSxoTa-omCiq_PHkUZcTn4e2ge8dEXY-kQeBgObB0280etVPSKXBMqDM1NhiTb2X4bZoThk6pf9nOJ0SfhT3uehUmsVgc83",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJ-99nNKgJZ0gRQcGTGWWLVTU",
+        "plus_code": {
+            "compound_code": "7QCV+GH Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7QCV+GH"
+        },
+        "rating": 4.1,
+        "reference": "ChIJ-99nNKgJZ0gRQcGTGWWLVTU",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4051,
+        "vicinity": "Clayton Hotel Leopardstown, Central Park, Sandyford Business Park, District"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2863426,
+                "lng": -6.145934100000002
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2876689302915,
+                    "lng": -6.144745119708499
+                },
+                "southwest": {
+                    "lat": 53.2849709697085,
+                    "lng": -6.147443080291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "P. McCormack and Sons",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112645807359969140847\">P. McCormack and Sons</a>"
+                ],
+                "photo_reference": "ATplDJYRdq26beZzXK9esmn28X51R612LqDuh4oiLK4ihb6xnC3jT5sq7Hv92nGmAjGwrSlL7hEOE4wTXfX0ER8MQKrr3Uxfo7oGRKDcX-G6knO4Tz2U3FAu7sV0xtCiTj7mSSkUOV99JJAcBsT7VXpZZjuG2LLLjufAqOUJw-k1V7MUkR2m",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJR6sF04IIZ0gRmFbPlFQ4FTo",
+        "plus_code": {
+            "compound_code": "7VP3+GJ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VP3+GJ"
+        },
+        "price_level": 2,
+        "rating": 4.4,
+        "reference": "ChIJR6sF04IIZ0gRmFbPlFQ4FTo",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1068,
+        "vicinity": "67 Mounttown Road Lower, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2663738,
+                "lng": -6.1835609
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2676981302915,
+                    "lng": -6.182287069708497
+                },
+                "southwest": {
+                    "lat": 53.2650001697085,
+                    "lng": -6.184985030291501
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Brighton Road",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 630,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104431811431078245015\">Brighton Road</a>"
+                ],
+                "photo_reference": "ATplDJZcTl9aYXw1La27KVZo0WCM-l2lpBsExnkq0JM6-9sCd87U1s7_0JqM1PK8CM139kFfujisJFopNO1mOxXwY17BtJXOFyLz8RtEhkIkKOFrK6vsb9iK-l6izK5aW6K2OD1P2Z6YIjMLmzQPlMgAaR9FkjFfBbSM7HzZGGIHTFAg3y1P",
+                "width": 1200
+            }
+        ],
+        "place_id": "ChIJ3Tmk4lAIZ0gRyT3-kvwtHg0",
+        "plus_code": {
+            "compound_code": "7R88+GH Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7R88+GH"
+        },
+        "price_level": 3,
+        "rating": 4.7,
+        "reference": "ChIJ3Tmk4lAIZ0gRyT3-kvwtHg0",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 169,
+        "vicinity": "3 Brighton Road, Foxrock Village, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2895223,
+                "lng": -6.199829299999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2910332802915,
+                    "lng": -6.198254669708497
+                },
+                "southwest": {
+                    "lat": 53.2883353197085,
+                    "lng": -6.200952630291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "McDonald's",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2513,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112344497375583603153\">thomas colgan</a>"
+                ],
+                "photo_reference": "ATplDJaYW96WCIG-933Uer8mwlbztBF7H2Vgff7tYsPGGZiUuawVDLCjeaW320dZ5wlOCmucGHnB-zu-fMo66moL84peQ8YAC5hTXI2wjBrUW8OrJuJrhKnepL82flskYA5iGxUAWWwFui58ZY6GB8u46i1uRDxI_1nBDeUrd2Y0YuUF_gsf",
+                "width": 3382
+            }
+        ],
+        "place_id": "ChIJn1i4Ax4JZ0gRtv7Zr9GDux4",
+        "plus_code": {
+            "compound_code": "7RQ2+R3 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7RQ2+R3"
+        },
+        "price_level": 1,
+        "rating": 3.8,
+        "reference": "ChIJn1i4Ax4JZ0gRtv7Zr9GDux4",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1316,
+        "vicinity": "Lower Kilmacud Road, Stillorgan, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.27805399999999,
+                "lng": -6.210549999999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.27946148029149,
+                    "lng": -6.209372169708496
+                },
+                "southwest": {
+                    "lat": 53.2767635197085,
+                    "lng": -6.212070130291501
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "China Sichuan Restaurant",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 826,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110237904102754806345\">China Sichuan Restaurant</a>"
+                ],
+                "photo_reference": "ATplDJamJzshaA7p6DBjC6i3jH-weZaNOXvRxoHo5TcK-kvWyQQ4c-P6WG_zE73QgSzyjY40XBtA5TrjDVwjCxbj5vmgQLFCSJ9_FkZ3hM5NvUW_kOTUIJdLMg0gnGAWxa0kMw_JDNzwlIhkirY-u895vmJ0XadZdLfzTy5pKO9fCMedOlKT",
+                "width": 1200
+            }
+        ],
+        "place_id": "ChIJaxD2-AUJZ0gRCPexeL4vAQM",
+        "plus_code": {
+            "compound_code": "7QHQ+6Q Dublin 18, County Dublin, Ireland",
+            "global_code": "9C5M7QHQ+6Q"
+        },
+        "price_level": 3,
+        "rating": 4.6,
+        "reference": "ChIJaxD2-AUJZ0gRCPexeL4vAQM",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 901,
+        "vicinity": "The Forum, Ballymoss Road, Sandyford Business Park, Dublin 18"
+    },
+    {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+            "location": {
+                "lat": 53.2774,
+                "lng": -6.1028889
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.27871183029149,
+                    "lng": -6.101570769708498
+                },
+                "southwest": {
+                    "lat": 53.2760138697085,
+                    "lng": -6.104268730291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+        "name": "The Corner Note",
+        "permanently_closed": true,
+        "photos": [
+            {
+                "height": 3006,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116614960830971511489\">Mike Miller</a>"
+                ],
+                "photo_reference": "ATplDJbslaoT93qBYU341R4xTfo8MCYqqt41sELgjgof_onvaIkODeEQHpLiDRxXAEv9HOOLcl1R-dbcM08eq2QfM8LPMDj24tUKafg2g4DDH_nAh1rdRT9NBWtVGTPwVZD2Gm_nzRMEWkgCrtRzXTk2AjQkMZaaNfzB2oVfhoS4J1-vFzUB",
+                "width": 5344
+            }
+        ],
+        "place_id": "ChIJoao2LrMHZ0gRgEHdyyIV6xs",
+        "plus_code": {
+            "compound_code": "7VGW+XR Dalkey, County Dublin, Ireland",
+            "global_code": "9C5M7VGW+XR"
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "ChIJoao2LrMHZ0gRgEHdyyIV6xs",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 487,
+        "vicinity": "1 Coliemore Road, Dalkey"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2805979,
+                "lng": -6.1576955
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2819326302915,
+                    "lng": -6.156520769708497
+                },
+                "southwest": {
+                    "lat": 53.2792346697085,
+                    "lng": -6.159218730291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "Baker's Corner",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1200,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107100890188373300543\">Baker&#39;s Corner</a>"
+                ],
+                "photo_reference": "ATplDJYn6bs79-Fe6FHO_MLKtAjT-juvkqPzayEzYWPaDyl4zWGXEuSjDxkDGI6MFo3eWXcvd6q8FLdJIbYKmD-H1FT-TRLpANpbw7j7NtyBXPkZJaovN4wTVwmlLHPKrE5M22vTfFeAUNp2H_W6ewbEE-spr5q7Fgm-L5o1DhfO1r4tyQ7D",
+                "width": 1600
+            }
+        ],
+        "place_id": "ChIJq78JM48IZ0gR07S9-TQsgCw",
+        "plus_code": {
+            "compound_code": "7RJR+6W Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7RJR+6W"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJq78JM48IZ0gR07S9-TQsgCw",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1004,
+        "vicinity": "Kill-O-The Grange Garda Station, Rochestown Avenue, Woodpark, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.277359,
+                "lng": -6.103599000000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2787330802915,
+                    "lng": -6.102414169708497
+                },
+                "southwest": {
+                    "lat": 53.2760351197085,
+                    "lng": -6.105112130291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Grapevine - Restaurant & Wine Shop Dalkey",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 901,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105390385581672134696\">Grapevine Dalkey</a>"
+                ],
+                "photo_reference": "ATplDJZBrGaNXDSgQLNExz54Jx83_KunHpjUlFx6PAJJALio-_GwebxvKWD2zZbW000IVdo5kyIM7yUcpu5QIFruAZiCbrn9YeQV4KKTkg_fYZ423HXBUKfGc2SjjZUo8W7EMT9r8bJshoc4KsMrAOCEaC2FiFICNv3P3z8qcTDDbpA2qYIJ",
+                "width": 1600
+            }
+        ],
+        "place_id": "ChIJqbrv05wIZ0gR0tOaxwCZbNk",
+        "plus_code": {
+            "compound_code": "7VGW+WH Dalkey, County Dublin, Ireland",
+            "global_code": "9C5M7VGW+WH"
+        },
+        "price_level": 2,
+        "rating": 4.6,
+        "reference": "ChIJqbrv05wIZ0gR0tOaxwCZbNk",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "liquor_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 133,
+        "vicinity": "26 Castle Street, Dalkey"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.269217,
+                "lng": -6.1130548
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.27060403029149,
+                    "lng": -6.111919419708496
+                },
+                "southwest": {
+                    "lat": 53.26790606970849,
+                    "lng": -6.1146173802915
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "PJ's Restaurant",
+        "photos": [
+            {
+                "height": 3264,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111572876495851849433\">Scott Morris</a>"
+                ],
+                "photo_reference": "ATplDJYDUR0pSpEheZY62mSUzfL6wRdl2Hhnh9D-qasNo--msKy3V3aLeslfE4wUACKVqAHZ6wSjdws8PvrtMIKarugBiTfjNN57m6ep0xXLP1WASGSdKk6n01cU6NyLbevYMAbkblXdHR1_apys1rpJ821GZ6eIsHHFsGwIhUMHk0XgiOIC",
+                "width": 2448
+            }
+        ],
+        "place_id": "ChIJ3QtmWMIHZ0gR0gPr8eJpjYc",
+        "plus_code": {
+            "compound_code": "7V9P+MQ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7V9P+MQ"
+        },
+        "rating": 3.3,
+        "reference": "ChIJ3QtmWMIHZ0gR0gPr8eJpjYc",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6,
+        "vicinity": "Killiney Hill Road, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.3015007,
+                "lng": -6.1774335
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.3029306802915,
+                    "lng": -6.175937469708498
+                },
+                "southwest": {
+                    "lat": 53.3002327197085,
+                    "lng": -6.178635430291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Supermac's & Papa John's",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 800,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113629921361476368922\">Supermac&#39;s &amp; Papa John&#39;s</a>"
+                ],
+                "photo_reference": "ATplDJYTtHSruQUGsqRSaNe_X6SMG60EAENjjMZluRHnde3z9pnY7z47ePcZwhwimFqU5kVlEi8eA266vOooPs58MH_Q8-zxUrYh4MF3pChcPGUA8lJMGitIgvnGZLz78qQkYhKZ-P8t03vWt4ubzJo2GeroLWt-uVwhRCQT78wls_qEB5CG",
+                "width": 800
+            }
+        ],
+        "place_id": "ChIJxyy618YIZ0gR0AJKOgTVGHY",
+        "plus_code": {
+            "compound_code": "8R2F+J2 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M8R2F+J2"
+        },
+        "price_level": 1,
+        "rating": 4.1,
+        "reference": "ChIJxyy618YIZ0gR0AJKOgTVGHY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 373,
+        "vicinity": "18 Main Street, Blackrock, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.26237090000001,
+                "lng": -6.161927299999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2637002802915,
+                    "lng": -6.160804419708498
+                },
+                "southwest": {
+                    "lat": 53.2610023197085,
+                    "lng": -6.163502380291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "De-Luxe Chinese Takeaway",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113952429130948664447\">De-Luxe Chinese Takeaway</a>"
+                ],
+                "photo_reference": "ATplDJYcUbWJTAT3PuPH__6h0Mv3_TIzhHXdW3ILoKQ_A7bwZU_Mbx8JdIx5CsCqNGVTd49dQUH7_x6dUNd1GUz90IDEk9xkwA9nO1m6SlN6B54ouOZ-Y9kw3NSw_1eTZGo4DbuxKV8XJCw6IniE5oDQszltR3U84EwRQ32Zh1-7wk0Wbet7",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJmaURXmgIZ0gR0w-asqzxDzk",
+        "plus_code": {
+            "compound_code": "7R6Q+W6 Dublin 18, County Dublin, Ireland",
+            "global_code": "9C5M7R6Q+W6"
+        },
+        "rating": 4,
+        "reference": "ChIJmaURXmgIZ0gR0w-asqzxDzk",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 107,
+        "vicinity": "Unit 2, The Park Business Centre, Glen Drive, The Park, Dublin 18"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.28219989999999,
+                "lng": -6.143800699999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.28352048029149,
+                    "lng": -6.142362519708497
+                },
+                "southwest": {
+                    "lat": 53.28082251970849,
+                    "lng": -6.145060480291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Base Wood Fired Pizza Glenageary",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101164517005503348146\">Michelle Corry</a>"
+                ],
+                "photo_reference": "ATplDJbWHQ99epXvNjGGpe2YhAk3Vr3ex-_mg2EntzBqUeBGt1ipDKoGjF7jdS1poChc8H5E8xN8qCl1f8wON_GN0luys9CaCFocQoXhhjit3e_LJvBwLozOHJCRpc56EO6ZXPw2YxPzGS9ODq6y11oxAX4eofipxCzeLjflk_ZM3iunyXq6",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJf8KZPoIIZ0gRVGk5LCrn0nQ",
+        "plus_code": {
+            "compound_code": "7VJ4+VF Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VJ4+VF"
+        },
+        "rating": 4,
+        "reference": "ChIJf8KZPoIIZ0gRVGk5LCrn0nQ",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 215,
+        "vicinity": "Unit 9 Park, Pointe Shopping Centre, Glenageary Road Upper, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2788259,
+                "lng": -6.1348626
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2802148302915,
+                    "lng": -6.133503019708497
+                },
+                "southwest": {
+                    "lat": 53.2775168697085,
+                    "lng": -6.136200980291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Brennan and Stevens",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 2000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106813909836662738277\">Brennan and Stevens</a>"
+                ],
+                "photo_reference": "ATplDJYpUVQ_N7YzVv-ycbPVGJPZKbpQnbrELBAP-VWfxCUY-EvJAmCNQSP6mu1L-9_VjwNZiHrMV5OPjt6-fmr2-kT-amW-h-j7lnFJF9E1p8tUNVxwye6-T6-qbEJga3w2p8ourJRWKbAe_QpAP_JksCM5uF17ryLD4p6WTmX1zgDAiX8g",
+                "width": 1333
+            }
+        ],
+        "place_id": "ChIJX3hkpiEGZ0gRdo5hEm3QFz0",
+        "plus_code": {
+            "compound_code": "7VH8+G3 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VH8+G3"
+        },
+        "reference": "ChIJX3hkpiEGZ0gRdo5hEm3QFz0",
+        "scope": "GOOGLE",
+        "types": [
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "vicinity": "38 Glenageary Park, Thomastown"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2776563,
+                "lng": -6.141178300000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.2789523802915,
+                    "lng": -6.139753419708498
+                },
+                "southwest": {
+                    "lat": 53.2762544197085,
+                    "lng": -6.142451380291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Mizzoni's Pizza - Sallynoggin",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1333,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110886914260795256195\">Mizzoni&#39;s Pizza Sallynoggin</a>"
+                ],
+                "photo_reference": "ATplDJbPWlxxdzxKNJvUtnsV3k0U3UbMUM9Dl_C-Mk--tqP8VefUQEwhg4QBOQNo3wpq2KdvgQoOGVEsXUH4GaT0gS9RZnuBwAJlVAQG4QiKioNbZztHpMpRmuazixlgm8wB39MqtRGCdYfCyZZo3v93OSwn0eeaPmDlmujk5aktA73u39Sl",
+                "width": 2000
+            }
+        ],
+        "place_id": "ChIJ-VYZJIAIZ0gRP4CNDZhnyWY",
+        "plus_code": {
+            "compound_code": "7VH5+3G Sallynoggin, County Dublin, Ireland",
+            "global_code": "9C5M7VH5+3G"
+        },
+        "price_level": 1,
+        "rating": 3.8,
+        "reference": "ChIJ-VYZJIAIZ0gRP4CNDZhnyWY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 115,
+        "vicinity": "95A Sallynoggin Road, Sallynoggin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.29179329999999,
+                "lng": -6.1367425
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.29316813029149,
+                    "lng": -6.135457619708498
+                },
+                "southwest": {
+                    "lat": 53.29047016970849,
+                    "lng": -6.138155580291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "La Dolce Italia",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1356,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105117451247030903998\">Lorenzo &amp; Nicole</a>"
+                ],
+                "photo_reference": "ATplDJZ-r4EizueXtbqsuSK0t7nUQclfv_iZIesMp1DAXkjPp7wB2JmrRGSd2Y-CK4Ublm2KD6Rd7jicAgW-vbzIFJMvOLJFJpot0eOXIo0tsaomKjRPAfvTwsDr2V2JgpKP7rQqraEYrxteRAQrReKrar6J91tP2OwsRUT6bQNQt30NDtos",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJYQSLAiQGZ0gR7li2ZZrBCLs",
+        "plus_code": {
+            "compound_code": "7VR7+P8 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR7+P8"
+        },
+        "rating": 4.9,
+        "reference": "ChIJYQSLAiQGZ0gR7li2ZZrBCLs",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 269,
+        "vicinity": "104 Patrick Street, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 53.2910137,
+                "lng": -6.1333943
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 53.29240368029151,
+                    "lng": -6.132009169708498
+                },
+                "southwest": {
+                    "lat": 53.28970571970851,
+                    "lng": -6.134707130291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Apache Pizza Dun Laoghaire",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116366527773556437925\">Apache Pizza Dun Laoghaire</a>"
+                ],
+                "photo_reference": "ATplDJai0Az2t8q0YBeNfvZfJ-CGO8dVwAX4aCpT4CTLkaT8Juyl0JejpyNC33VJgqBSSQnxKw-f6quONn79Bs1jGfEaz0gBdwSDiS1HQboxc34foaxKzLVtug1CI3dSJV-rVtOAnnDIP9gvANygTScGeOz573dT-gJLpZQZd2KWuvaFm6JA",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJ6YRdXiQGZ0gRh8iU8LD4BgY",
+        "plus_code": {
+            "compound_code": "7VR8+CJ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR8+CJ"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJ6YRdXiQGZ0gRh8iU8LD4BgY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 255,
+        "vicinity": "7 Anglesea Buildings, Dún Laoghaire, Dublin"
+    }
+]      
+ LOG  *** [
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Fitzpatrick Castle Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJtZT6S-oHZ0gRVdkGwJwuYCE",
+        "plus_code": {
+            "compound_code": "7V9P+QV Killiney, County Dublin, Ireland",
+            "global_code": "9C5M7V9P+QV"
+        },
+        "rating": 4.3,
+        "reference": "ChIJtZT6S-oHZ0gRVdkGwJwuYCE",
+        "scope": "GOOGLE",
+        "types": [
+            "gym",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2080,
+        "vicinity": "Killiney Hill Road, Killiney"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Royal Marine Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJs_drfiMGZ0gRr3-MjlnJNy4",
+        "plus_code": {
+            "compound_code": "7VR8+WG Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR8+WG"
+        },
+        "rating": 4.2,
+        "reference": "ChIJs_drfiMGZ0gRr3-MjlnJNy4",
+        "scope": "GOOGLE",
+        "types": [
+            "gym",
+            "spa",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2964,
+        "vicinity": "Marine Road, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Talbot Hotel Stillorgan",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJdR1mJCAJZ0gR-DvUgu3hFCk",
+        "plus_code": {
+            "compound_code": "7QWX+22 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7QWX+22"
+        },
+        "rating": 4.1,
+        "reference": "ChIJdR1mJCAJZ0gR-DvUgu3hFCk",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2133,
+        "vicinity": "Stillorgan Road, Stillorgan, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Haddington House",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJjUQwqSQGZ0gRsSeuwy77CKU",
+        "plus_code": {
+            "compound_code": "7VR9+RP Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR9+RP"
+        },
+        "rating": 4.5,
+        "reference": "ChIJjUQwqSQGZ0gRsSeuwy77CKU",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 655,
+        "vicinity": "9-12, 9-12 Haddington Terrace, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Clayton Hotel Leopardstown",
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ-99nNKgJZ0gRQcGTGWWLVTU",
+        "plus_code": {
+            "compound_code": "7QCV+GH Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7QCV+GH"
+        },
+        "rating": 4.1,
+        "reference": "ChIJ-99nNKgJZ0gRQcGTGWWLVTU",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4051,
+        "vicinity": "Clayton Hotel Leopardstown, Central Park, Sandyford Business Park, District"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "P. McCormack and Sons",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJR6sF04IIZ0gRmFbPlFQ4FTo",
+        "plus_code": {
+            "compound_code": "7VP3+GJ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VP3+GJ"
+        },
+        "price_level": 2,
+        "rating": 4.4,
+        "reference": "ChIJR6sF04IIZ0gRmFbPlFQ4FTo",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1068,
+        "vicinity": "67 Mounttown Road Lower, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Brighton Road",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ3Tmk4lAIZ0gRyT3-kvwtHg0",
+        "plus_code": {
+            "compound_code": "7R88+GH Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7R88+GH"
+        },
+        "price_level": 3,
+        "rating": 4.7,
+        "reference": "ChIJ3Tmk4lAIZ0gRyT3-kvwtHg0",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 169,
+        "vicinity": "3 Brighton Road, Foxrock Village, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "McDonald's",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJn1i4Ax4JZ0gRtv7Zr9GDux4",
+        "plus_code": {
+            "compound_code": "7RQ2+R3 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7RQ2+R3"
+        },
+        "price_level": 1,
+        "rating": 3.8,
+        "reference": "ChIJn1i4Ax4JZ0gRtv7Zr9GDux4",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1316,
+        "vicinity": "Lower Kilmacud Road, Stillorgan, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "China Sichuan Restaurant",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJaxD2-AUJZ0gRCPexeL4vAQM",
+        "plus_code": {
+            "compound_code": "7QHQ+6Q Dublin 18, County Dublin, Ireland",
+            "global_code": "9C5M7QHQ+6Q"
+        },
+        "price_level": 3,
+        "rating": 4.6,
+        "reference": "ChIJaxD2-AUJZ0gRCPexeL4vAQM",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 901,
+        "vicinity": "The Forum, Ballymoss Road, Sandyford Business Park, Dublin 18"
+    },
+    {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+        "name": "The Corner Note",
+        "permanently_closed": true,
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJoao2LrMHZ0gRgEHdyyIV6xs",
+        "plus_code": {
+            "compound_code": "7VGW+XR Dalkey, County Dublin, Ireland",
+            "global_code": "9C5M7VGW+XR"
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "ChIJoao2LrMHZ0gRgEHdyyIV6xs",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 487,
+        "vicinity": "1 Coliemore Road, Dalkey"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "Baker's Corner",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJq78JM48IZ0gR07S9-TQsgCw",
+        "plus_code": {
+            "compound_code": "7RJR+6W Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7RJR+6W"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJq78JM48IZ0gR07S9-TQsgCw",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1004,
+        "vicinity": "Kill-O-The Grange Garda Station, Rochestown Avenue, Woodpark, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Grapevine - Restaurant & Wine Shop Dalkey",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJqbrv05wIZ0gR0tOaxwCZbNk",
+        "plus_code": {
+            "compound_code": "7VGW+WH Dalkey, County Dublin, Ireland",
+            "global_code": "9C5M7VGW+WH"
+        },
+        "price_level": 2,
+        "rating": 4.6,
+        "reference": "ChIJqbrv05wIZ0gR0tOaxwCZbNk",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "liquor_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 133,
+        "vicinity": "26 Castle Street, Dalkey"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "PJ's Restaurant",
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ3QtmWMIHZ0gR0gPr8eJpjYc",
+        "plus_code": {
+            "compound_code": "7V9P+MQ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7V9P+MQ"
+        },
+        "rating": 3.3,
+        "reference": "ChIJ3QtmWMIHZ0gR0gPr8eJpjYc",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6,
+        "vicinity": "Killiney Hill Road, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Supermac's & Papa John's",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJxyy618YIZ0gR0AJKOgTVGHY",
+        "plus_code": {
+            "compound_code": "8R2F+J2 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M8R2F+J2"
+        },
+        "price_level": 1,
+        "rating": 4.1,
+        "reference": "ChIJxyy618YIZ0gR0AJKOgTVGHY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 373,
+        "vicinity": "18 Main Street, Blackrock, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "De-Luxe Chinese Takeaway",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJmaURXmgIZ0gR0w-asqzxDzk",
+        "plus_code": {
+            "compound_code": "7R6Q+W6 Dublin 18, County Dublin, Ireland",
+            "global_code": "9C5M7R6Q+W6"
+        },
+        "rating": 4,
+        "reference": "ChIJmaURXmgIZ0gR0w-asqzxDzk",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 107,
+        "vicinity": "Unit 2, The Park Business Centre, Glen Drive, The Park, Dublin 18"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Base Wood Fired Pizza Glenageary",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJf8KZPoIIZ0gRVGk5LCrn0nQ",
+        "plus_code": {
+            "compound_code": "7VJ4+VF Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VJ4+VF"
+        },
+        "rating": 4,
+        "reference": "ChIJf8KZPoIIZ0gRVGk5LCrn0nQ",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 215,
+        "vicinity": "Unit 9 Park, Pointe Shopping Centre, Glenageary Road Upper, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Brennan and Stevens",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJX3hkpiEGZ0gRdo5hEm3QFz0",
+        "plus_code": {
+            "compound_code": "7VH8+G3 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VH8+G3"
+        },
+        "reference": "ChIJX3hkpiEGZ0gRdo5hEm3QFz0",
+        "scope": "GOOGLE",
+        "types": [
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "vicinity": "38 Glenageary Park, Thomastown"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Mizzoni's Pizza - Sallynoggin",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ-VYZJIAIZ0gRP4CNDZhnyWY",
+        "plus_code": {
+            "compound_code": "7VH5+3G Sallynoggin, County Dublin, Ireland",
+            "global_code": "9C5M7VH5+3G"
+        },
+        "price_level": 1,
+        "rating": 3.8,
+        "reference": "ChIJ-VYZJIAIZ0gRP4CNDZhnyWY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 115,
+        "vicinity": "95A Sallynoggin Road, Sallynoggin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "La Dolce Italia",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJYQSLAiQGZ0gR7li2ZZrBCLs",
+        "plus_code": {
+            "compound_code": "7VR7+P8 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR7+P8"
+        },
+        "rating": 4.9,
+        "reference": "ChIJYQSLAiQGZ0gR7li2ZZrBCLs",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 269,
+        "vicinity": "104 Patrick Street, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Apache Pizza Dun Laoghaire",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ6YRdXiQGZ0gRh8iU8LD4BgY",
+        "plus_code": {
+            "compound_code": "7VR8+CJ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR8+CJ"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJ6YRdXiQGZ0gRh8iU8LD4BgY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 255,
+        "vicinity": "7 Anglesea Buildings, Dún Laoghaire, Dublin"
+    }
+]
+ LOG  *** [
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Fitzpatrick Castle Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJtZT6S-oHZ0gRVdkGwJwuYCE",
+        "plus_code": {
+            "compound_code": "7V9P+QV Killiney, County Dublin, Ireland",
+            "global_code": "9C5M7V9P+QV"
+        },
+        "rating": 4.3,
+        "reference": "ChIJtZT6S-oHZ0gRVdkGwJwuYCE",
+        "scope": "GOOGLE",
+        "types": [
+            "gym",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2080,
+        "vicinity": "Killiney Hill Road, Killiney"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Royal Marine Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJs_drfiMGZ0gRr3-MjlnJNy4",
+        "plus_code": {
+            "compound_code": "7VR8+WG Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR8+WG"
+        },
+        "rating": 4.2,
+        "reference": "ChIJs_drfiMGZ0gRr3-MjlnJNy4",
+        "scope": "GOOGLE",
+        "types": [
+            "gym",
+            "spa",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2964,
+        "vicinity": "Marine Road, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Talbot Hotel Stillorgan",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJdR1mJCAJZ0gR-DvUgu3hFCk",
+        "plus_code": {
+            "compound_code": "7QWX+22 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7QWX+22"
+        },
+        "rating": 4.1,
+        "reference": "ChIJdR1mJCAJZ0gR-DvUgu3hFCk",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2133,
+        "vicinity": "Stillorgan Road, Stillorgan, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Haddington House",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJjUQwqSQGZ0gRsSeuwy77CKU",
+        "plus_code": {
+            "compound_code": "7VR9+RP Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR9+RP"
+        },
+        "rating": 4.5,
+        "reference": "ChIJjUQwqSQGZ0gRsSeuwy77CKU",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 655,
+        "vicinity": "9-12, 9-12 Haddington Terrace, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Clayton Hotel Leopardstown",
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ-99nNKgJZ0gRQcGTGWWLVTU",
+        "plus_code": {
+            "compound_code": "7QCV+GH Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7QCV+GH"
+        },
+        "rating": 4.1,
+        "reference": "ChIJ-99nNKgJZ0gRQcGTGWWLVTU",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4051,
+        "vicinity": "Clayton Hotel Leopardstown, Central Park, Sandyford Business Park, District"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "P. McCormack and Sons",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJR6sF04IIZ0gRmFbPlFQ4FTo",
+        "plus_code": {
+            "compound_code": "7VP3+GJ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VP3+GJ"
+        },
+        "price_level": 2,
+        "rating": 4.4,
+        "reference": "ChIJR6sF04IIZ0gRmFbPlFQ4FTo",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1068,
+        "vicinity": "67 Mounttown Road Lower, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Brighton Road",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ3Tmk4lAIZ0gRyT3-kvwtHg0",
+        "plus_code": {
+            "compound_code": "7R88+GH Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7R88+GH"
+        },
+        "price_level": 3,
+        "rating": 4.7,
+        "reference": "ChIJ3Tmk4lAIZ0gRyT3-kvwtHg0",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 169,
+        "vicinity": "3 Brighton Road, Foxrock Village, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "McDonald's",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJn1i4Ax4JZ0gRtv7Zr9GDux4",
+        "plus_code": {
+            "compound_code": "7RQ2+R3 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7RQ2+R3"
+        },
+        "price_level": 1,
+        "rating": 3.8,
+        "reference": "ChIJn1i4Ax4JZ0gRtv7Zr9GDux4",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1316,
+        "vicinity": "Lower Kilmacud Road, Stillorgan, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "China Sichuan Restaurant",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJaxD2-AUJZ0gRCPexeL4vAQM",
+        "plus_code": {
+            "compound_code": "7QHQ+6Q Dublin 18, County Dublin, Ireland",
+            "global_code": "9C5M7QHQ+6Q"
+        },
+        "price_level": 3,
+        "rating": 4.6,
+        "reference": "ChIJaxD2-AUJZ0gRCPexeL4vAQM",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 901,
+        "vicinity": "The Forum, Ballymoss Road, Sandyford Business Park, Dublin 18"
+    },
+    {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+        "name": "The Corner Note",
+        "permanently_closed": true,
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJoao2LrMHZ0gRgEHdyyIV6xs",
+        "plus_code": {
+            "compound_code": "7VGW+XR Dalkey, County Dublin, Ireland",
+            "global_code": "9C5M7VGW+XR"
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "ChIJoao2LrMHZ0gRgEHdyyIV6xs",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 487,
+        "vicinity": "1 Coliemore Road, Dalkey"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "Baker's Corner",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJq78JM48IZ0gR07S9-TQsgCw",
+        "plus_code": {
+            "compound_code": "7RJR+6W Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7RJR+6W"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJq78JM48IZ0gR07S9-TQsgCw",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1004,
+        "vicinity": "Kill-O-The Grange Garda Station, Rochestown Avenue, Woodpark, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Grapevine - Restaurant & Wine Shop Dalkey",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJqbrv05wIZ0gR0tOaxwCZbNk",
+        "plus_code": {
+            "compound_code": "7VGW+WH Dalkey, County Dublin, Ireland",
+            "global_code": "9C5M7VGW+WH"
+        },
+        "price_level": 2,
+        "rating": 4.6,
+        "reference": "ChIJqbrv05wIZ0gR0tOaxwCZbNk",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "liquor_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 133,
+        "vicinity": "26 Castle Street, Dalkey"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "PJ's Restaurant",
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ3QtmWMIHZ0gR0gPr8eJpjYc",
+        "plus_code": {
+            "compound_code": "7V9P+MQ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7V9P+MQ"
+        },
+        "rating": 3.3,
+        "reference": "ChIJ3QtmWMIHZ0gR0gPr8eJpjYc",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6,
+        "vicinity": "Killiney Hill Road, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Supermac's & Papa John's",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJxyy618YIZ0gR0AJKOgTVGHY",
+        "plus_code": {
+            "compound_code": "8R2F+J2 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M8R2F+J2"
+        },
+        "price_level": 1,
+        "rating": 4.1,
+        "reference": "ChIJxyy618YIZ0gR0AJKOgTVGHY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 373,
+        "vicinity": "18 Main Street, Blackrock, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "De-Luxe Chinese Takeaway",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJmaURXmgIZ0gR0w-asqzxDzk",
+        "plus_code": {
+            "compound_code": "7R6Q+W6 Dublin 18, County Dublin, Ireland",
+            "global_code": "9C5M7R6Q+W6"
+        },
+        "rating": 4,
+        "reference": "ChIJmaURXmgIZ0gR0w-asqzxDzk",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 107,
+        "vicinity": "Unit 2, The Park Business Centre, Glen Drive, The Park, Dublin 18"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Base Wood Fired Pizza Glenageary",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJf8KZPoIIZ0gRVGk5LCrn0nQ",
+        "plus_code": {
+            "compound_code": "7VJ4+VF Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VJ4+VF"
+        },
+        "rating": 4,
+        "reference": "ChIJf8KZPoIIZ0gRVGk5LCrn0nQ",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 215,
+        "vicinity": "Unit 9 Park, Pointe Shopping Centre, Glenageary Road Upper, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Brennan and Stevens",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJX3hkpiEGZ0gRdo5hEm3QFz0",
+        "plus_code": {
+            "compound_code": "7VH8+G3 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VH8+G3"
+        },
+        "reference": "ChIJX3hkpiEGZ0gRdo5hEm3QFz0",
+        "scope": "GOOGLE",
+        "types": [
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "vicinity": "38 Glenageary Park, Thomastown"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Mizzoni's Pizza - Sallynoggin",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ-VYZJIAIZ0gRP4CNDZhnyWY",
+        "plus_code": {
+            "compound_code": "7VH5+3G Sallynoggin, County Dublin, Ireland",
+            "global_code": "9C5M7VH5+3G"
+        },
+        "price_level": 1,
+        "rating": 3.8,
+        "reference": "ChIJ-VYZJIAIZ0gRP4CNDZhnyWY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 115,
+        "vicinity": "95A Sallynoggin Road, Sallynoggin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "La Dolce Italia",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJYQSLAiQGZ0gR7li2ZZrBCLs",
+        "plus_code": {
+            "compound_code": "7VR7+P8 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR7+P8"
+        },
+        "rating": 4.9,
+        "reference": "ChIJYQSLAiQGZ0gR7li2ZZrBCLs",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 269,
+        "vicinity": "104 Patrick Street, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Apache Pizza Dun Laoghaire",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ6YRdXiQGZ0gRh8iU8LD4BgY",
+        "plus_code": {
+            "compound_code": "7VR8+CJ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR8+CJ"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJ6YRdXiQGZ0gRh8iU8LD4BgY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 255,
+        "vicinity": "7 Anglesea Buildings, Dún Laoghaire, Dublin"
+    }
+]
+ LOG  *** [
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Fitzpatrick Castle Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJtZT6S-oHZ0gRVdkGwJwuYCE",
+        "plus_code": {
+            "compound_code": "7V9P+QV Killiney, County Dublin, Ireland",
+            "global_code": "9C5M7V9P+QV"
+        },
+        "rating": 4.3,
+        "reference": "ChIJtZT6S-oHZ0gRVdkGwJwuYCE",
+        "scope": "GOOGLE",
+        "types": [
+            "gym",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2080,
+        "vicinity": "Killiney Hill Road, Killiney"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Royal Marine Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJs_drfiMGZ0gRr3-MjlnJNy4",
+        "plus_code": {
+            "compound_code": "7VR8+WG Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR8+WG"
+        },
+        "rating": 4.2,
+        "reference": "ChIJs_drfiMGZ0gRr3-MjlnJNy4",
+        "scope": "GOOGLE",
+        "types": [
+            "gym",
+            "spa",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2964,
+        "vicinity": "Marine Road, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Talbot Hotel Stillorgan",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJdR1mJCAJZ0gR-DvUgu3hFCk",
+        "plus_code": {
+            "compound_code": "7QWX+22 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7QWX+22"
+        },
+        "rating": 4.1,
+        "reference": "ChIJdR1mJCAJZ0gR-DvUgu3hFCk",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2133,
+        "vicinity": "Stillorgan Road, Stillorgan, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Haddington House",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJjUQwqSQGZ0gRsSeuwy77CKU",
+        "plus_code": {
+            "compound_code": "7VR9+RP Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR9+RP"
+        },
+        "rating": 4.5,
+        "reference": "ChIJjUQwqSQGZ0gRsSeuwy77CKU",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 655,
+        "vicinity": "9-12, 9-12 Haddington Terrace, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Clayton Hotel Leopardstown",
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ-99nNKgJZ0gRQcGTGWWLVTU",
+        "plus_code": {
+            "compound_code": "7QCV+GH Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7QCV+GH"
+        },
+        "rating": 4.1,
+        "reference": "ChIJ-99nNKgJZ0gRQcGTGWWLVTU",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4051,
+        "vicinity": "Clayton Hotel Leopardstown, Central Park, Sandyford Business Park, District"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "P. McCormack and Sons",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJR6sF04IIZ0gRmFbPlFQ4FTo",
+        "plus_code": {
+            "compound_code": "7VP3+GJ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VP3+GJ"
+        },
+        "price_level": 2,
+        "rating": 4.4,
+        "reference": "ChIJR6sF04IIZ0gRmFbPlFQ4FTo",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1068,
+        "vicinity": "67 Mounttown Road Lower, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Brighton Road",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ3Tmk4lAIZ0gRyT3-kvwtHg0",
+        "plus_code": {
+            "compound_code": "7R88+GH Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7R88+GH"
+        },
+        "price_level": 3,
+        "rating": 4.7,
+        "reference": "ChIJ3Tmk4lAIZ0gRyT3-kvwtHg0",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 169,
+        "vicinity": "3 Brighton Road, Foxrock Village, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "McDonald's",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJn1i4Ax4JZ0gRtv7Zr9GDux4",
+        "plus_code": {
+            "compound_code": "7RQ2+R3 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7RQ2+R3"
+        },
+        "price_level": 1,
+        "rating": 3.8,
+        "reference": "ChIJn1i4Ax4JZ0gRtv7Zr9GDux4",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1316,
+        "vicinity": "Lower Kilmacud Road, Stillorgan, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "China Sichuan Restaurant",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJaxD2-AUJZ0gRCPexeL4vAQM",
+        "plus_code": {
+            "compound_code": "7QHQ+6Q Dublin 18, County Dublin, Ireland",
+            "global_code": "9C5M7QHQ+6Q"
+        },
+        "price_level": 3,
+        "rating": 4.6,
+        "reference": "ChIJaxD2-AUJZ0gRCPexeL4vAQM",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 901,
+        "vicinity": "The Forum, Ballymoss Road, Sandyford Business Park, Dublin 18"
+    },
+    {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+        "name": "The Corner Note",
+        "permanently_closed": true,
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJoao2LrMHZ0gRgEHdyyIV6xs",
+        "plus_code": {
+            "compound_code": "7VGW+XR Dalkey, County Dublin, Ireland",
+            "global_code": "9C5M7VGW+XR"
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "ChIJoao2LrMHZ0gRgEHdyyIV6xs",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 487,
+        "vicinity": "1 Coliemore Road, Dalkey"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "Baker's Corner",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJq78JM48IZ0gR07S9-TQsgCw",
+        "plus_code": {
+            "compound_code": "7RJR+6W Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7RJR+6W"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJq78JM48IZ0gR07S9-TQsgCw",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1004,
+        "vicinity": "Kill-O-The Grange Garda Station, Rochestown Avenue, Woodpark, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Grapevine - Restaurant & Wine Shop Dalkey",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJqbrv05wIZ0gR0tOaxwCZbNk",
+        "plus_code": {
+            "compound_code": "7VGW+WH Dalkey, County Dublin, Ireland",
+            "global_code": "9C5M7VGW+WH"
+        },
+        "price_level": 2,
+        "rating": 4.6,
+        "reference": "ChIJqbrv05wIZ0gR0tOaxwCZbNk",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "liquor_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 133,
+        "vicinity": "26 Castle Street, Dalkey"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "PJ's Restaurant",
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ3QtmWMIHZ0gR0gPr8eJpjYc",
+        "plus_code": {
+            "compound_code": "7V9P+MQ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7V9P+MQ"
+        },
+        "rating": 3.3,
+        "reference": "ChIJ3QtmWMIHZ0gR0gPr8eJpjYc",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6,
+        "vicinity": "Killiney Hill Road, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Supermac's & Papa John's",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJxyy618YIZ0gR0AJKOgTVGHY",
+        "plus_code": {
+            "compound_code": "8R2F+J2 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M8R2F+J2"
+        },
+        "price_level": 1,
+        "rating": 4.1,
+        "reference": "ChIJxyy618YIZ0gR0AJKOgTVGHY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 373,
+        "vicinity": "18 Main Street, Blackrock, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "De-Luxe Chinese Takeaway",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJmaURXmgIZ0gR0w-asqzxDzk",
+        "plus_code": {
+            "compound_code": "7R6Q+W6 Dublin 18, County Dublin, Ireland",
+            "global_code": "9C5M7R6Q+W6"
+        },
+        "rating": 4,
+        "reference": "ChIJmaURXmgIZ0gR0w-asqzxDzk",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 107,
+        "vicinity": "Unit 2, The Park Business Centre, Glen Drive, The Park, Dublin 18"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Base Wood Fired Pizza Glenageary",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJf8KZPoIIZ0gRVGk5LCrn0nQ",
+        "plus_code": {
+            "compound_code": "7VJ4+VF Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VJ4+VF"
+        },
+        "rating": 4,
+        "reference": "ChIJf8KZPoIIZ0gRVGk5LCrn0nQ",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 215,
+        "vicinity": "Unit 9 Park, Pointe Shopping Centre, Glenageary Road Upper, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Brennan and Stevens",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJX3hkpiEGZ0gRdo5hEm3QFz0",
+        "plus_code": {
+            "compound_code": "7VH8+G3 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VH8+G3"
+        },
+        "reference": "ChIJX3hkpiEGZ0gRdo5hEm3QFz0",
+        "scope": "GOOGLE",
+        "types": [
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "vicinity": "38 Glenageary Park, Thomastown"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Mizzoni's Pizza - Sallynoggin",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ-VYZJIAIZ0gRP4CNDZhnyWY",
+        "plus_code": {
+            "compound_code": "7VH5+3G Sallynoggin, County Dublin, Ireland",
+            "global_code": "9C5M7VH5+3G"
+        },
+        "price_level": 1,
+        "rating": 3.8,
+        "reference": "ChIJ-VYZJIAIZ0gRP4CNDZhnyWY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 115,
+        "vicinity": "95A Sallynoggin Road, Sallynoggin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "La Dolce Italia",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJYQSLAiQGZ0gR7li2ZZrBCLs",
+        "plus_code": {
+            "compound_code": "7VR7+P8 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR7+P8"
+        },
+        "rating": 4.9,
+        "reference": "ChIJYQSLAiQGZ0gR7li2ZZrBCLs",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 269,
+        "vicinity": "104 Patrick Street, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Apache Pizza Dun Laoghaire",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ6YRdXiQGZ0gRh8iU8LD4BgY",
+        "plus_code": {
+            "compound_code": "7VR8+CJ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR8+CJ"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJ6YRdXiQGZ0gRh8iU8LD4BgY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 255,
+        "vicinity": "7 Anglesea Buildings, Dún Laoghaire, Dublin"
+    }
+]
+ LOG  *** [
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Fitzpatrick Castle Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJtZT6S-oHZ0gRVdkGwJwuYCE",
+        "plus_code": {
+            "compound_code": "7V9P+QV Killiney, County Dublin, Ireland",
+            "global_code": "9C5M7V9P+QV"
+        },
+        "rating": 4.3,
+        "reference": "ChIJtZT6S-oHZ0gRVdkGwJwuYCE",
+        "scope": "GOOGLE",
+        "types": [
+            "gym",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2080,
+        "vicinity": "Killiney Hill Road, Killiney"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Royal Marine Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJs_drfiMGZ0gRr3-MjlnJNy4",
+        "plus_code": {
+            "compound_code": "7VR8+WG Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR8+WG"
+        },
+        "rating": 4.2,
+        "reference": "ChIJs_drfiMGZ0gRr3-MjlnJNy4",
+        "scope": "GOOGLE",
+        "types": [
+            "gym",
+            "spa",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2964,
+        "vicinity": "Marine Road, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Talbot Hotel Stillorgan",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJdR1mJCAJZ0gR-DvUgu3hFCk",
+        "plus_code": {
+            "compound_code": "7QWX+22 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7QWX+22"
+        },
+        "rating": 4.1,
+        "reference": "ChIJdR1mJCAJZ0gR-DvUgu3hFCk",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2133,
+        "vicinity": "Stillorgan Road, Stillorgan, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Haddington House",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJjUQwqSQGZ0gRsSeuwy77CKU",
+        "plus_code": {
+            "compound_code": "7VR9+RP Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR9+RP"
+        },
+        "rating": 4.5,
+        "reference": "ChIJjUQwqSQGZ0gRsSeuwy77CKU",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 655,
+        "vicinity": "9-12, 9-12 Haddington Terrace, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Clayton Hotel Leopardstown",
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ-99nNKgJZ0gRQcGTGWWLVTU",
+        "plus_code": {
+            "compound_code": "7QCV+GH Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7QCV+GH"
+        },
+        "rating": 4.1,
+        "reference": "ChIJ-99nNKgJZ0gRQcGTGWWLVTU",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4051,
+        "vicinity": "Clayton Hotel Leopardstown, Central Park, Sandyford Business Park, District"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "P. McCormack and Sons",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJR6sF04IIZ0gRmFbPlFQ4FTo",
+        "plus_code": {
+            "compound_code": "7VP3+GJ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VP3+GJ"
+        },
+        "price_level": 2,
+        "rating": 4.4,
+        "reference": "ChIJR6sF04IIZ0gRmFbPlFQ4FTo",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1068,
+        "vicinity": "67 Mounttown Road Lower, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Brighton Road",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ3Tmk4lAIZ0gRyT3-kvwtHg0",
+        "plus_code": {
+            "compound_code": "7R88+GH Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7R88+GH"
+        },
+        "price_level": 3,
+        "rating": 4.7,
+        "reference": "ChIJ3Tmk4lAIZ0gRyT3-kvwtHg0",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 169,
+        "vicinity": "3 Brighton Road, Foxrock Village, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "McDonald's",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJn1i4Ax4JZ0gRtv7Zr9GDux4",
+        "plus_code": {
+            "compound_code": "7RQ2+R3 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7RQ2+R3"
+        },
+        "price_level": 1,
+        "rating": 3.8,
+        "reference": "ChIJn1i4Ax4JZ0gRtv7Zr9GDux4",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1316,
+        "vicinity": "Lower Kilmacud Road, Stillorgan, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "China Sichuan Restaurant",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJaxD2-AUJZ0gRCPexeL4vAQM",
+        "plus_code": {
+            "compound_code": "7QHQ+6Q Dublin 18, County Dublin, Ireland",
+            "global_code": "9C5M7QHQ+6Q"
+        },
+        "price_level": 3,
+        "rating": 4.6,
+        "reference": "ChIJaxD2-AUJZ0gRCPexeL4vAQM",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 901,
+        "vicinity": "The Forum, Ballymoss Road, Sandyford Business Park, Dublin 18"
+    },
+    {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+        "name": "The Corner Note",
+        "permanently_closed": true,
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJoao2LrMHZ0gRgEHdyyIV6xs",
+        "plus_code": {
+            "compound_code": "7VGW+XR Dalkey, County Dublin, Ireland",
+            "global_code": "9C5M7VGW+XR"
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "ChIJoao2LrMHZ0gRgEHdyyIV6xs",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 487,
+        "vicinity": "1 Coliemore Road, Dalkey"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "Baker's Corner",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJq78JM48IZ0gR07S9-TQsgCw",
+        "plus_code": {
+            "compound_code": "7RJR+6W Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7RJR+6W"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJq78JM48IZ0gR07S9-TQsgCw",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1004,
+        "vicinity": "Kill-O-The Grange Garda Station, Rochestown Avenue, Woodpark, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Grapevine - Restaurant & Wine Shop Dalkey",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJqbrv05wIZ0gR0tOaxwCZbNk",
+        "plus_code": {
+            "compound_code": "7VGW+WH Dalkey, County Dublin, Ireland",
+            "global_code": "9C5M7VGW+WH"
+        },
+        "price_level": 2,
+        "rating": 4.6,
+        "reference": "ChIJqbrv05wIZ0gR0tOaxwCZbNk",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "liquor_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 133,
+        "vicinity": "26 Castle Street, Dalkey"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "PJ's Restaurant",
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ3QtmWMIHZ0gR0gPr8eJpjYc",
+        "plus_code": {
+            "compound_code": "7V9P+MQ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7V9P+MQ"
+        },
+        "rating": 3.3,
+        "reference": "ChIJ3QtmWMIHZ0gR0gPr8eJpjYc",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6,
+        "vicinity": "Killiney Hill Road, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Supermac's & Papa John's",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJxyy618YIZ0gR0AJKOgTVGHY",
+        "plus_code": {
+            "compound_code": "8R2F+J2 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M8R2F+J2"
+        },
+        "price_level": 1,
+        "rating": 4.1,
+        "reference": "ChIJxyy618YIZ0gR0AJKOgTVGHY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 373,
+        "vicinity": "18 Main Street, Blackrock, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "De-Luxe Chinese Takeaway",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJmaURXmgIZ0gR0w-asqzxDzk",
+        "plus_code": {
+            "compound_code": "7R6Q+W6 Dublin 18, County Dublin, Ireland",
+            "global_code": "9C5M7R6Q+W6"
+        },
+        "rating": 4,
+        "reference": "ChIJmaURXmgIZ0gR0w-asqzxDzk",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 107,
+        "vicinity": "Unit 2, The Park Business Centre, Glen Drive, The Park, Dublin 18"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Base Wood Fired Pizza Glenageary",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJf8KZPoIIZ0gRVGk5LCrn0nQ",
+        "plus_code": {
+            "compound_code": "7VJ4+VF Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VJ4+VF"
+        },
+        "rating": 4,
+        "reference": "ChIJf8KZPoIIZ0gRVGk5LCrn0nQ",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 215,
+        "vicinity": "Unit 9 Park, Pointe Shopping Centre, Glenageary Road Upper, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Brennan and Stevens",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJX3hkpiEGZ0gRdo5hEm3QFz0",
+        "plus_code": {
+            "compound_code": "7VH8+G3 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VH8+G3"
+        },
+        "reference": "ChIJX3hkpiEGZ0gRdo5hEm3QFz0",
+        "scope": "GOOGLE",
+        "types": [
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "vicinity": "38 Glenageary Park, Thomastown"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Mizzoni's Pizza - Sallynoggin",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ-VYZJIAIZ0gRP4CNDZhnyWY",
+        "plus_code": {
+            "compound_code": "7VH5+3G Sallynoggin, County Dublin, Ireland",
+            "global_code": "9C5M7VH5+3G"
+        },
+        "price_level": 1,
+        "rating": 3.8,
+        "reference": "ChIJ-VYZJIAIZ0gRP4CNDZhnyWY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 115,
+        "vicinity": "95A Sallynoggin Road, Sallynoggin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "La Dolce Italia",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJYQSLAiQGZ0gR7li2ZZrBCLs",
+        "plus_code": {
+            "compound_code": "7VR7+P8 Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR7+P8"
+        },
+        "rating": 4.9,
+        "reference": "ChIJYQSLAiQGZ0gR7li2ZZrBCLs",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 269,
+        "vicinity": "104 Patrick Street, Dún Laoghaire, Dublin"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": [Object
+            ],
+            "viewport": [Object
+            ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Apache Pizza Dun Laoghaire",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            [Object
+            ]
+        ],
+        "place_id": "ChIJ6YRdXiQGZ0gRh8iU8LD4BgY",
+        "plus_code": {
+            "compound_code": "7VR8+CJ Dublin, County Dublin, Ireland",
+            "global_code": "9C5M7VR8+CJ"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJ6YRdXiQGZ0gRh8iU8LD4BgY",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 255,
+        "vicinity": "7 Anglesea Buildings, Dún Laoghaire, Dublin"
+    }
+]
