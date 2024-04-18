@@ -36,15 +36,15 @@ const Tab = createBottomTabNavigator();
             )
           }}
         />
-        <Tab.Screen name='favorite' 
-          component={FavoriteScreen}
-          options={{
-            tabBarLabel:'Favorite',
-            tabBarIcon:({color,size})=>(
-              <MaterialIcons name="favorite-border" size={size} color={color} />
-            )
-          }}
-        />
+<Tab.Screen name='favorite' 
+  component={FavoriteScreen}
+  options={{
+    tabBarLabel:'Favorite',
+    tabBarIcon:({focused, size})=>(
+      <MaterialIcons name={focused ? "favorite" : "favorite-border"} size={size} color='red' />
+    )
+  }}
+/>
         <Tab.Screen name='profile' 
           component={ProfileScreen}
           options={{
