@@ -10,7 +10,14 @@ export default function Header() {
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
         <Image source={{uri:user?.imageUrl}}
-          style={{width:45, height:45, borderRadius:99, marginRight: 10}} // Add marginRight
+          style={{
+            width:35, 
+            height:35, 
+            borderRadius:99, 
+            marginRight: 10, 
+            borderColor: '#ffffff', 
+            borderWidth: 2 
+          }}
         />
         <Image source ={require('./../../../assets/images/logo111.png')}
           style={{width:45,height:45,objectFit:'contain'}}
@@ -20,6 +27,7 @@ export default function Header() {
     </SafeAreaView>
   )
 }
+
 
 const styles = StyleSheet.create({
 
