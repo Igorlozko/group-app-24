@@ -33,10 +33,10 @@ const Tab = createBottomTabNavigator();
   options={{
     tabBarLabel:'Search',
     tabBarIcon:({ color, size, focused }) => (
-      <FontAwesome 
+      <FontAwesome5
         name={focused ? "search-location" : "search"} 
         size={size} 
-        color={color} 
+        color={'#275ecc'} 
       />
     )
   }} 
@@ -55,8 +55,8 @@ const Tab = createBottomTabNavigator();
   component={ProfileScreen}
   options={{
     tabBarLabel:'Account',
-    tabBarIcon:({ color, size, focused }) => (
-      <FontAwesome5 name={focused ? "user" : "user-o"} size={size} color={color} />
+    tabBarIcon:({ size, focused }) => (
+      <FontAwesome name={focused ? "user" : "user-o"} size={size} color='#1f5bcc' />
     )
   }}
 />
