@@ -10,7 +10,7 @@ import { FontAwesome } from '@expo/vector-icons';
 import Review from '../Screen/Reviews/Review';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
+import { FontAwesome5 } from '@expo/vector-icons';
 const ReviewNavigator =createNativeStackNavigator();
 
 export function ReviewStack() {
@@ -27,15 +27,20 @@ const Tab = createBottomTabNavigator();
     <Tab.Navigator screenOptions={{
       headerShown:false,
     }}>
-        <Tab.Screen name='ReviewStack' 
-          component={ReviewStack}
-          options={{
-            tabBarLabel:'Search',
-            tabBarIcon:({color,size})=>(
-              <AntDesign name="search1" size={size} color={color} />
-            )
-          }}
-        />
+<Tab.Screen
+  name='ReviewStack'
+  component={ReviewStack}
+  options={{
+    tabBarLabel:'Search',
+    tabBarIcon:({ color, size, focused }) => (
+      <FontAwesome 
+        name={focused ? "search-location" : "search"} 
+        size={size} 
+        color={color} 
+      />
+    )
+  }} 
+/>
 <Tab.Screen name='favorite' 
   component={FavoriteScreen}
   options={{
@@ -45,15 +50,16 @@ const Tab = createBottomTabNavigator();
     )
   }}
 />
-        <Tab.Screen name='profile' 
-          component={ProfileScreen}
-          options={{
-            tabBarLabel:'Account',
-            tabBarIcon:({color,size})=>(
-              <FontAwesome name="user-o" size={size} color={color} />
-            )
-          }}
-        />
+<Tab.Screen
+  name='profile'
+  component={ProfileScreen}
+  options={{
+    tabBarLabel:'Account',
+    tabBarIcon:({ color, size, focused }) => (
+      <FontAwesome5 name={focused ? "user" : "user-o"} size={size} color={color} />
+    )
+  }}
+/>
     </Tab.Navigator>
   )
 }
