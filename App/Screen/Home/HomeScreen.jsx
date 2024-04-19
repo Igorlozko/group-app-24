@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     zIndex: 10,
     padding: 10,
     width: '100%',
-    paddingHorizontal: 20
+    paddingHorizontal: 20,
   },
   placelistcontainer: {
     position: 'absolute',
