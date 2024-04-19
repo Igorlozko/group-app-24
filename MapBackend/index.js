@@ -88,7 +88,16 @@ app.delete('/reviews/:id', (req, res) => {
     res.status(500).send(`Error while deleting review: ${error.message}`);
   });
 });
-
+app.get('/allreviews', (req, res) => {
+  Review.find({})
+    .then(reviews => {
+      res.send(reviews);
+    })
+    .catch(error => {
+      console.error('Error while fetching all reviews:', error);
+      res.status(500).send(`Error while fetching all reviews: ${error.message}`);
+    });
+});
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
