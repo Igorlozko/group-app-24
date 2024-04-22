@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, Image, TextInput, TouchableOpacity, FlatList } from 'react-native';
 import { Card } from 'react-native-elements';
+import { useUser } from '@clerk/clerk-react';
+
 function Review({route}) {
   const { imageUrl } = route.params;
   const [review, setReview] = useState('');
   const [reviews, setReviews] = useState([]);
-
+  const { user } = useUser();
   useEffect(() => {
-    fetch(`https://c0d3-79-140-211-73.ngrok-free.app/reviews?placeId=${route.params.placeId}`)
+    fetch(`https://b8e0-193-1-57-3.ngrok-free.app/reviews?placeId=${route.params.placeId}`)
       .then(response => response.json())
       .then(data => {
         console.log('Received data:', data);
@@ -22,12 +24,12 @@ function Review({route}) {
       return;
     }
   
-    const response = await fetch('https://c0d3-79-140-211-73.ngrok-free.app/reviews', {
+    const response = await fetch('https://b8e0-193-1-57-3.ngrok-free.app/reviews', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ name: 'User', description: review, placeId: route.params.placeId }),
+      body: JSON.stringify({ name: user.firstName, description: review, placeId: route.params.placeId }),
     });
     
     const data = await response.json();
@@ -38,7 +40,7 @@ function Review({route}) {
       console.error('Failed to submit review');
     } else {
       // If the review was successfully submitted, add it to the list of reviews
-      setReviews(prevReviews => [...prevReviews, { name: 'User', description: review }]);
+      setReviews(prevReviews => [...prevReviews, { name: user.firstName, description: review }]);
     }
   };
 

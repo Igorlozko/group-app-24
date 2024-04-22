@@ -30,7 +30,7 @@ export default function ProfileScreen() {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch('https://9c2d-79-140-211-73.ngrok-free.app/allreviews')
+    fetch('https://b8e0-193-1-57-3.ngrok-free.app/allreviews')
       .then(response => response.json())
       .then(data => {
         console.log(data); // Log the received data
@@ -53,10 +53,10 @@ export default function ProfileScreen() {
       </View>
       <Text style={{ marginTop: 10, fontSize: 16, alignSelf: 'center' }}>My Reviews</Text>
       <FlatList
-        data={reviews}
-        keyExtractor={item => item._id}
-        renderItem={({ item }) => <ReviewCard review={item} />}
-      />
+  data={reviews.slice().reverse()}
+  keyExtractor={item => item._id}
+  renderItem={({ item }) => <ReviewCard review={item} />}
+/>
     </View>
   );
 }
