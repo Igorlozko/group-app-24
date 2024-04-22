@@ -1,1 +1,1 @@
-Final Year Collabritive project for Cloud Computing/Mobile.
+Final Year collabritive project for Cloud Computing/Mobile.
