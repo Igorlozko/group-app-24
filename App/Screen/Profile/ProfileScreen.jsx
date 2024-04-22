@@ -53,10 +53,10 @@ export default function ProfileScreen() {
       </View>
       <Text style={{ marginTop: 10, fontSize: 16, alignSelf: 'center' }}>My Reviews</Text>
       <FlatList
-        data={reviews}
-        keyExtractor={item => item._id}
-        renderItem={({ item }) => <ReviewCard review={item} />}
-      />
+  data={reviews.slice().reverse()}
+  keyExtractor={item => item._id}
+  renderItem={({ item }) => <ReviewCard review={item} />}
+/>
     </View>
   );
 }
