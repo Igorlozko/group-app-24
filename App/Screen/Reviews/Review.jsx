@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, Image, TextInput, TouchableOpacity, FlatList } from 'react-native';
+import { View, Text, Image, TextInput, TouchableOpacity, FlatList, Button } from 'react-native';
 import { Card } from 'react-native-elements';
 import { useUser } from '@clerk/clerk-react';
+
+
 
 function Review({route}) {
   const { imageUrl } = route.params;
@@ -46,8 +48,10 @@ function Review({route}) {
 
   return (
     <View>
+
       {imageUrl && <Image source={{ uri: imageUrl }} style={{ width: '100%', height: 200 }} />}
       <TextInput
+      
   style={{
     height: 40,
     borderColor: 'gray',
