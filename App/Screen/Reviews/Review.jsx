@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, Image, TextInput, TouchableOpacity, FlatList } from 'react-native';
+import { View, Text, Image, TextInput, TouchableOpacity, FlatList, Button } from 'react-native';
 import { Card } from 'react-native-elements';
+
+
 function Review({route}) {
   const { imageUrl } = route.params;
   const [review, setReview] = useState('');
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch(`https://c0d3-79-140-211-73.ngrok-free.app/reviews?placeId=${route.params.placeId}`)
+    fetch(`https://b8e0-193-1-57-3.ngrok-free.app/reviews?placeId=${route.params.placeId}`)
       .then(response => response.json())
       .then(data => {
         console.log('Received data:', data);
@@ -22,7 +24,7 @@ function Review({route}) {
       return;
     }
   
-    const response = await fetch('https://c0d3-79-140-211-73.ngrok-free.app/reviews', {
+    const response = await fetch('https://b8e0-193-1-57-3.ngrok-free.app/reviews', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -44,8 +46,10 @@ function Review({route}) {
 
   return (
     <View>
+
       {imageUrl && <Image source={{ uri: imageUrl }} style={{ width: '100%', height: 200 }} />}
       <TextInput
+      
   style={{
     height: 40,
     borderColor: 'gray',
