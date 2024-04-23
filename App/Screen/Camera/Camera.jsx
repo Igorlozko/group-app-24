@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { View, Text, StyleSheet, Button } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { Camera } from 'expo-camera';
+import { Button } from '../../CameraComponent/Button';
 import * as MediaLibrary from 'expo-media-library';
 
 export default function CameraScreen() {
@@ -25,16 +26,15 @@ export default function CameraScreen() {
       </Camera>
       <View>
         <Button
-          title="Take Picture"
-          onPress={async () => {
-            if (cameraRef.current) {
-              const photo = await cameraRef.current.takePictureAsync();
-              console.log(photo);
-              setImage(photo.uri);
-              MediaLibrary.saveToLibraryAsync(photo.uri);
-            }
+          title={"Take a picture"}
+          icon="camera"/>
+          onPress={() => {
+            setType(
+              type === Camera.Constants.Type.back
+                ? Camera.Constants.Type.front
+                : Camera.Constants.Type.back
+            );
           }}
-        />
       </View>
     </View>
   );
