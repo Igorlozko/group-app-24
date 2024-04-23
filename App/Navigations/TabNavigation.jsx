@@ -13,6 +13,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { FontAwesome5 } from '@expo/vector-icons';
 const ReviewNavigator =createNativeStackNavigator();
 import Camera from '../Screen/Camera/Camera';
+
 export function ReviewStack() {
   return (
     <ReviewNavigator.Navigator>
