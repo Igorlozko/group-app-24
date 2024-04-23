@@ -23,13 +23,34 @@ export default function CameraScreen() {
   const takePicture = async () => {
     if (cameraRef) {
  try{
-    const data = await cameraRef.current.takePictureAsync();
-      console.log(data);
-      setImage(data.uri);
-    } catch(e) {
-      console.log(e);
-    }
-  }
+  const data = await cameraRef.current.takePictureAsync();
+  console.log(data);
+  setImage(data.uri);
+
+  // Convert the image data to a blob
+  const response = await fetch(data.uri);
+  const blob = await response.blob();
+
+  // Send the image data to the backend
+  fetch('http://your-backend-url/camera', {
+    method: 'POST',
+    body: blob,
+    headers: {
+      'Content-Type': 'application/octet-stream',
+    },
+  })
+  .then(response => response.json())
+  .then(response => {
+    console.log('Upload success:', response);
+  })
+  .catch(error => {
+    console.error('Upload failed:', error);
+  });
+
+} catch(e) {
+  console.log(e);
+}
+}
 }
   if (hasCameraPermission === false) {
     return <Text>No access to camera</Text> 
@@ -55,7 +76,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#000',
     justifyContent: 'center',
-    paddingBottom: 20,
+ 
   },
   camera: {
     flex: 1,
