@@ -13,16 +13,15 @@ export default function Button({title, onPress, icon, colour}) {
 
 const styles = StyleSheet.create({
     button: {
-        flexDirection: 'row',
-        backgroundColor: '#f1f1f1',
-        padding: 10,
-        borderRadius: 5,
-        alignItems: 'center',
-        justifyContent: 'center',
+   height: 40,
+   flexDirection: 'row',
+   allignItems: 'centre',
+   justifyContent: 'center',
     },
     text: {
-        fontSize: 20,
-        color: '#f1f1f1',
-        marginLeft: 10
+  fontWeight: 'bold',
+  fontSize: 16,
+  color: '#f1f1f1',
+  marginLeft: 10
     }
 })

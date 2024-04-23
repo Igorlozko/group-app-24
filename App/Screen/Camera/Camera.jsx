@@ -19,6 +19,10 @@ export default function CameraScreen() {
     })();
   }, []);
 
+  if (hasCameraPermission === false) {
+    return <Text>No access to camera</Text> 
+  }
+
   return (
     <View style={styles.container}>
       <Camera style={styles.camera} type={type} flashMode={flash} ref={cameraRef}>
@@ -38,6 +42,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#000',
     justifyContent: 'center',
+    paddingBottom: 20,
   },
   camera: {
     flex: 1,
