@@ -98,6 +98,7 @@ app.get('/allreviews', (req, res) => {
       res.status(500).send(`Error while fetching all reviews: ${error.message}`);
     });
 });
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });

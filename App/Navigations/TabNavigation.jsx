@@ -12,7 +12,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { FontAwesome5 } from '@expo/vector-icons';
 const ReviewNavigator =createNativeStackNavigator();
-
+import Camera from '../Screen/Camera/Camera';
 export function ReviewStack() {
   return (
     <ReviewNavigator.Navigator>
@@ -59,6 +59,16 @@ const Tab = createBottomTabNavigator();
       <FontAwesome name={focused ? "user" : "user-o"} size={size} color='#1f5bcc' />
     )
   }}
+/>
+<Tab.Screen
+ name='Camera'
+ component={Camera}
+ options={{
+  tabBarLabel:'Account',
+  tabBarIcon:({ size, focused }) => (
+    <FontAwesome name={focused ? "user" : "user-o"} size={size} color='#1f5bcc' />
+  )
+}}
 />
     </Tab.Navigator>
   )

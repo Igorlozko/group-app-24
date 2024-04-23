@@ -1,12 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Text, View, StyleSheet, TouchableOpacity, Image } from 'react-native';
-import Constants from 'expo-constants';
-import { Camera, CameraType } from 'expo-camera';
+import React, { useState, useRef, useEffect } from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import { Camera } from 'expo-camera';
+import  Button  from '../../CameraComponent/Button';
 import * as MediaLibrary from 'expo-media-library';
-import { MaterialIcons } from '@expo/vector-icons';
-import Button from './src/components/Button';
 
-export default function Camera() {
+
+export default function CameraScreen() {
   const [hasCameraPermission, setHasCameraPermission] = useState(null);
   const [image, setImage] = useState(null);
   const [type, setType] = useState(Camera.Constants.Type.back);
@@ -15,7 +14,7 @@ export default function Camera() {
 
   useEffect(() => {
     (async () => {
-      MediaLibrary.requestPermissionsAsync();
+      await MediaLibrary.requestPermissionsAsync();
       const cameraStatus = await Camera.requestCameraPermissionsAsync();
       setHasCameraPermission(cameraStatus.status === 'granted');
     })();
@@ -23,94 +22,50 @@ export default function Camera() {
 
   const takePicture = async () => {
     if (cameraRef) {
-      try {
-        const data = await cameraRef.current.takePictureAsync();
-        console.log(data);
-        setImage(data.uri);
-      } catch (error) {
-        console.log(error);
-      }
-    }
-  };
+ try{
+  const data = await cameraRef.current.takePictureAsync();
+  console.log(data);
+  setImage(data.uri);
 
-  const savePicture = async () => {
-    if (image) {
-      try {
-        const asset = await MediaLibrary.createAssetAsync(image);
-        alert('Picture saved! 🎉');
-        setImage(null);
-        console.log('saved successfully');
-      } catch (error) {
-        console.log(error);
-      }
-    }
-  };
+  // Convert the image data to a blob
+  const response = await fetch(data.uri);
+  const blob = await response.blob();
 
+  // Send the image data to the backend
+  fetch('http://your-backend-url/camera', {
+    method: 'POST',
+    body: blob,
+    headers: {
+      'Content-Type': 'application/octet-stream',
+    },
+  })
+  .then(response => response.json())
+  .then(response => {
+    console.log('Upload success:', response);
+  })
+  .catch(error => {
+    console.error('Upload failed:', error);
+  });
+
+} catch(e) {
+  console.log(e);
+}
+}
+}
   if (hasCameraPermission === false) {
-    return <Text>No access to camera</Text>;
+    return <Text>No access to camera</Text> 
   }
 
   return (
     <View style={styles.container}>
-      {!image ? (
-        <Camera
-          style={styles.camera}
-          type={type}
-          ref={cameraRef}
-          flashMode={flash}
-        >
-          <View
-            style={{
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              paddingHorizontal: 30,
-            }}
-          >
-            <Button
-              title=""
-              icon="retweet"
-              onPress={() => {
-                setType(
-                  type === CameraType.back ? CameraType.front : CameraType.back
-                );
-              }}
-            />
-            <Button
-              onPress={() =>
-                setFlash(
-                  flash === Camera.Constants.FlashMode.off
-                    ? Camera.Constants.FlashMode.on
-                    : Camera.Constants.FlashMode.off
-                )
-              }
-              icon="flash"
-              color={flash === Camera.Constants.FlashMode.off ? 'gray' : '#fff'}
-            />
-          </View>
-        </Camera>
-      ) : (
-        <Image source={{ uri: image }} style={styles.camera} />
-      )}
-
-      <View style={styles.controls}>
-        {image ? (
-          <View
-            style={{
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              paddingHorizontal: 50,
-            }}
-          >
-            <Button
-              title="Re-take"
-              onPress={() => setImage(null)}
-              icon="retweet"
-            />
-            <Button title="Save" onPress={savePicture} icon="check" />
-          </View>
-        ) : (
-          <Button title="Take a picture" onPress={takePicture} icon="camera" />
-        )}
+      <Camera style={styles.camera} type={type} flashMode={flash} ref={cameraRef}>
+        <Text> hello</Text>
+      </Camera>
+      <View>
+        <Button
+          title={"Take a picture"}
+          icon="camera" 
+          onPress={takePicture}/> 
       </View>
     </View>
   );
@@ -119,32 +74,12 @@ export default function Camera() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    paddingTop: Constants.statusBarHeight,
     backgroundColor: '#000',
-    padding: 8,
-  },
-  controls: {
-    flex: 0.5,
-  },
-  button: {
-    height: 40,
-    borderRadius: 6,
-    flexDirection: 'row',
-    alignItems: 'center',
     justifyContent: 'center',
-  },
-  text: {
-    fontWeight: 'bold',
-    fontSize: 16,
-    color: '#E9730F',
-    marginLeft: 10,
+ 
   },
   camera: {
-    flex: 5,
-    borderRadius: 20,
-  },
-  topControls: {
     flex: 1,
+    borderRadius: 20,
   },
 });
