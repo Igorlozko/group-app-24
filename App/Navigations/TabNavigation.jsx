@@ -13,23 +13,26 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { FontAwesome5 } from '@expo/vector-icons';
 const ReviewNavigator =createNativeStackNavigator();
 import Camera from '../Screen/Camera/Camera';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+
+function HomeDrawer() {
+  return (
+    <Drawer.Navigator initialRouteName="Home">
+      <Drawer.Screen name="Home" component={HomeScreen} />
+      <Drawer.Screen name="Camera" component={Camera} />
+    </Drawer.Navigator>
+  );
+}
 
 export function ReviewStack() {
   return (
     <ReviewNavigator.Navigator>
-      <ReviewNavigator.Screen name='HomeScreen' component={HomeScreen}options={{ headerShown: false }}/>
-      <ReviewNavigator.Screen name='CameraStack' component={CameraStack} />
+      <ReviewNavigator.Screen name='HomeScreen' component={HomeDrawer} options={{ headerShown: false }}/>
+      <ReviewNavigator.Screen name='Review' component={Review} />
     </ReviewNavigator.Navigator>
   )
 }
-export function CameraStack() {
-  return (
-    <ReviewNavigator.Navigator>
-       <ReviewNavigator.Screen name='Review' component={Review} />
-      <ReviewNavigator.Screen name='Camera' component={Camera} options={{ headerShown: false }} />
-    </ReviewNavigator.Navigator>
-  )
-}
+
 const Tab = createBottomTabNavigator();
  function TabNavigation() {
   return (
