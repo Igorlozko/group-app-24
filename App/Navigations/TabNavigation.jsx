@@ -15,19 +15,12 @@ const ReviewNavigator =createNativeStackNavigator();
 import Camera from '../Screen/Camera/Camera';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
-function HomeDrawer() {
-  return (
-    <Drawer.Navigator initialRouteName="Home">
-      <Drawer.Screen name="Home" component={HomeScreen} />
-      <Drawer.Screen name="Camera" component={Camera} />
-    </Drawer.Navigator>
-  );
-}
+const Drawer = createDrawerNavigator();
 
 export function ReviewStack() {
   return (
     <ReviewNavigator.Navigator>
-      <ReviewNavigator.Screen name='HomeScreen' component={HomeDrawer} options={{ headerShown: false }}/>
+      <ReviewNavigator.Screen name='HomeScreen' component={Home} options={{ headerShown: false }}/>
       <ReviewNavigator.Screen name='Review' component={Review} />
     </ReviewNavigator.Navigator>
   )
@@ -76,9 +69,9 @@ const Tab = createBottomTabNavigator();
  name='Camera'
  component={Camera}
  options={{
-  tabBarLabel:'Account',
+  tabBarLabel:'Camera',
   tabBarIcon:({ size, focused }) => (
-    <FontAwesome name={focused ? "user" : "user-o"} size={size} color='#1f5bcc' />
+    <FontAwesome name={focused ? "camera" : "camera-retro"} size={size} color='#1f5bcc' />
   )
 }}
 />
@@ -88,8 +81,6 @@ const Tab = createBottomTabNavigator();
 
 export default function Navigation() {
   return (
-
       <TabNavigation/>
-
   )
 }
