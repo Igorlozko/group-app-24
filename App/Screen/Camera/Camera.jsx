@@ -20,6 +20,14 @@ useEffect(()=>{
 
   return(
     <View style={styles.container}>
+      <Camera
+      styles={styles.camera}
+      type={type}
+      FlashMode={flash}
+      ref={cameraRef}
+      >
+       <Text> hello</Text>
+        </Camera>
     </View>
   );
 }
