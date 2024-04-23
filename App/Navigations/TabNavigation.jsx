@@ -13,11 +13,20 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { FontAwesome5 } from '@expo/vector-icons';
 const ReviewNavigator =createNativeStackNavigator();
 import Camera from '../Screen/Camera/Camera';
+
 export function ReviewStack() {
   return (
     <ReviewNavigator.Navigator>
       <ReviewNavigator.Screen name='HomeScreen' component={HomeScreen}options={{ headerShown: false }}/>
-      <ReviewNavigator.Screen name='Review' component={Review} />
+      <ReviewNavigator.Screen name='CameraStack' component={CameraStack} />
+    </ReviewNavigator.Navigator>
+  )
+}
+export function CameraStack() {
+  return (
+    <ReviewNavigator.Navigator>
+       <ReviewNavigator.Screen name='Review' component={Review} />
+      <ReviewNavigator.Screen name='Camera' component={Camera} options={{ headerShown: false }} />
     </ReviewNavigator.Navigator>
   )
 }
