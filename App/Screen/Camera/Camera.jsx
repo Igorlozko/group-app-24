@@ -4,6 +4,7 @@ import { Camera } from 'expo-camera';
 import  Button  from '../../CameraComponent/Button';
 import * as MediaLibrary from 'expo-media-library';
 
+
 export default function CameraScreen() {
   const [hasCameraPermission, setHasCameraPermission] = useState(null);
   const [image, setImage] = useState(null);
@@ -19,6 +20,17 @@ export default function CameraScreen() {
     })();
   }, []);
 
+  const takePicture = async () => {
+    if (cameraRef) {
+ try{
+    const data = await cameraRef.current.takePictureAsync();
+      console.log(data);
+      setImage(data.uri);
+    } catch(e) {
+      console.log(e);
+    }
+  }
+}
   if (hasCameraPermission === false) {
     return <Text>No access to camera</Text> 
   }
@@ -31,7 +43,8 @@ export default function CameraScreen() {
       <View>
         <Button
           title={"Take a picture"}
-          icon="camera"/> 
+          icon="camera" 
+          onPress={takePicture}/> 
       </View>
     </View>
   );
