@@ -3,6 +3,8 @@ const mongoose = require('mongoose');
 const url = 'mongodb://localhost:27017/mapreview';
 const app = express();
 const port = 3050;
+const multer = require('multer');
+const upload = multer({ dest: 'uploads/' });
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -19,6 +21,13 @@ const reviewSchema = new mongoose.Schema({
   placeId: String, 
 });
 
+
+const ImageSchema = new mongoose.Schema({
+  data: Buffer,
+  contentType: String
+});
+
+module.exports = mongoose.model('Image', ImageSchema);
 const Review = mongoose.model('Review', reviewSchema);
 
 app.get('/', (req, res) => {
@@ -97,6 +106,21 @@ app.get('/allreviews', (req, res) => {
       console.error('Error while fetching all reviews:', error);
       res.status(500).send(`Error while fetching all reviews: ${error.message}`);
     });
+});
+
+app.post('/camera', upload.single('image'), async (req, res) => {
+  const image = new Image({
+    data: req.file.buffer,
+    contentType: 'image/jpeg' // Assuming the image is a jpeg
+  });
+
+  try {
+    await image.save();
+    res.json({ status: 'Upload success' });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Upload failed' });
+  }
 });
 
 app.listen(port, () => {
