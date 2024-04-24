@@ -30,7 +30,7 @@ const FavoriteScreen = () => {
         data={favorites.slice().reverse()}  // Reverse the list
         keyExtractor={item => item.placeId}
         renderItem={({ item }) => (
-          <Card>
+          <Card containerStyle={{borderRadius: 30}}>
             <Card.Title>{item.name}</Card.Title>
             <Card.Divider/>
             {item.imageUrl && <Card.Image source={{ uri: item.imageUrl }} />}  
