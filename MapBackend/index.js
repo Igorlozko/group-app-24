@@ -27,6 +27,16 @@ const reviewSchema = new mongoose.Schema({
 });
 const Review = mongoose.model('Review', reviewSchema);
 
+
+const favoritePlaceSchema = new mongoose.Schema({
+  placeId: String,
+  name: String,
+  description: String,
+  image: String
+});
+
+const FavoritePlace = mongoose.model('FavoritePlace', favoritePlaceSchema);
+
 app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
@@ -104,6 +114,7 @@ app.get('/allreviews', (req, res) => {
       res.status(500).send(`Error while fetching all reviews: ${error.message}`);
     });
 });
+/*
 app.post('/camera', upload.single('blob'), async (req, res) => {
   if (!req.file) {
     return res.status(400).json({ error: 'No file uploaded' });
@@ -121,7 +132,41 @@ app.post('/camera', upload.single('blob'), async (req, res) => {
     console.error('Upload failed:', error);
     res.status(500).json({ error: 'Upload failed' });
   }
+});*/
+
+app.post('/favorite', (req, res) => {
+  const place = req.body;
+
+  // Create a new document from the FavoritePlace model
+  const favoritePlace = new FavoritePlace(place);
+
+  // Save the document to the database
+  favoritePlace.save()
+    .then(() => {
+      console.log('Added favorite place:', place);
+      console.log('The place has been successfully added to the favorites in the database.');
+      res.json({ message: 'Place added to favorites successfully' });
+    })
+    .catch(error => {
+      console.error('Error while adding favorite place:', error);
+      console.log('Failed to add the place to the favorites in the database.');
+      res.status(500).send('Error while adding favorite place');
+    });
 });
+
+app.get('/favorites', (req, res) => {
+  // Find all favorite places in the database
+  FavoritePlace.find({})
+    .then(favorites => {
+      // Send the favorite places to the client
+      res.send(favorites);
+    })
+    .catch(error => {
+      console.error('Error while fetching favorite places:', error);
+      res.status(500).send('Error while fetching favorite places');
+    });
+});
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
