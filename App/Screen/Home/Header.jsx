@@ -22,7 +22,6 @@ export default function Header() {
         <Image source ={require('./../../../assets/images/logo111.png')}
           style={{width:45,height:45,objectFit:'contain'}}
         />
-        <MaterialCommunityIcons name="filter" size={30} color="black" />
       </View>
     </SafeAreaView>
   )
