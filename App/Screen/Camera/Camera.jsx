@@ -1,4 +1,101 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View, SafeAreaView, Button, Image } from 'react-native';
+import { useEffect, useRef, useState } from 'react';
+import { Camera } from 'expo-camera';
+import { shareAsync } from 'expo-sharing';
+import * as MediaLibrary from 'expo-media-library';
+
+export default function CameraScreen() {
+  let cameraRef = useRef();
+  const [hasCameraPermission, setHasCameraPermission] = useState();
+  const [hasMediaLibraryPermission, setHasMediaLibraryPermission] = useState();
+  const [photo, setPhoto] = useState();
+
+  useEffect(() => {
+    (async () => {
+      const cameraPermission = await Camera.requestCameraPermissionsAsync();
+      const mediaLibraryPermission = await MediaLibrary.requestPermissionsAsync();
+      setHasCameraPermission(cameraPermission.status === "granted");
+      setHasMediaLibraryPermission(mediaLibraryPermission.status === "granted");
+    })();
+  }, []);
+
+  if (hasCameraPermission === undefined) {
+    return <Text>Requesting permissions...</Text>
+  } else if (!hasCameraPermission) {
+    return <Text>Permission for camera not granted. Please change this in settings.</Text>
+  }
+
+  let takePic = async () => {
+    let options = {
+      quality: 1,
+      base64: true,
+      exif: false
+    };
+
+    let newPhoto = await cameraRef.current.takePictureAsync(options);
+    setPhoto(newPhoto);
+  };
+
+  if (photo) {
+    let sharePic = () => {
+      shareAsync(photo.uri).then(() => {
+        setPhoto(undefined);
+      });
+    };
+
+    let savePhoto = () => {
+      MediaLibrary.saveToLibraryAsync(photo.uri).then(() => {
+        setPhoto(undefined);
+      });
+    };
+
+    return (
+      <SafeAreaView style={styles.container}>
+        <Image style={styles.preview} source={{ uri: "data:image/jpg;base64," + photo.base64 }} />
+        <Button title="Share" onPress={sharePic} />
+        {hasMediaLibraryPermission ? <Button title="Save" onPress={savePhoto} /> : undefined}
+        <Button title="Discard" onPress={() => setPhoto(undefined)} />
+      </SafeAreaView>
+    );
+  }
+
+  return (
+    <Camera style={styles.container} ref={cameraRef}>
+      <View style={styles.buttonContainer}>
+        <Button title="Take Pic" onPress={takePic} />
+      </View>
+      <StatusBar style="auto" />
+    </Camera>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  buttonContainer: {
+    backgroundColor: '#fff',
+    alignSelf: 'flex-end'
+  },
+  preview: {
+    alignSelf: 'stretch',
+    flex: 1
+  }
+});
+
+
+
+
+
+
+
+
+
+
+/*import React, { useState, useRef, useEffect } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Camera } from 'expo-camera';
 import  Button  from '../../CameraComponent/Button';
@@ -19,42 +116,40 @@ export default function CameraScreen() {
       setHasCameraPermission(cameraStatus.status === 'granted');
     })();
   }, []);
-
   const takePicture = async () => {
     if (cameraRef) {
- try{
-  const data = await cameraRef.current.takePictureAsync();
-  console.log(data);
-  setImage(data.uri);
-
-  // Convert the image data to a blob
-  const response = await fetch(data.uri);
-  const blob = await response.blob();
-
-  // Send the image data to the backend
-  fetch('http://your-backend-url/camera', {
-    method: 'POST',
-    body: blob,
-    headers: {
-      'Content-Type': 'application/octet-stream',
-    },
-  })
-  .then(response => response.json())
-  .then(response => {
-    console.log('Upload success:', response);
-  })
-  .catch(error => {
-    console.error('Upload failed:', error);
-  });
-
-} catch(e) {
-  console.log(e);
-}
-}
-}
-  if (hasCameraPermission === false) {
-    return <Text>No access to camera</Text> 
-  }
+      try {
+        const data = await cameraRef.current.takePictureAsync();
+        console.log(data);
+        setImage(data.uri);
+  
+        // Convert the image data to a blob
+        const response = await fetch(data.uri);
+        const blob = await response.blob();
+  
+        // Convert the blob to a file
+        const file = new File([blob], 'image.jpg', { type: 'image/jpeg' });
+  
+        // Send the image data to the backend
+        const formData = new FormData();
+        formData.append('blob', file); // add filename
+  
+        fetch('https://b8e0-193-1-57-3.ngrok-free.app/camera', {
+          method: 'POST',
+          body: formData,
+        })
+        .then(response => response.json())
+        .then(response => {
+          console.log('Upload success:', response);
+        })
+        .catch(error => {
+          console.error('Upload failed:', error);
+        });
+      } catch (error) {
+        console.error('Error while taking picture:', error);
+      }
+    }
+  };
 
   return (
     <View style={styles.container}>
@@ -82,4 +177,4 @@ const styles = StyleSheet.create({
     flex: 1,
     borderRadius: 20,
   },
-});
+}); */

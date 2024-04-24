@@ -6,8 +6,11 @@ const port = 3050;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
-
+const multer = require('multer');
+const upload = multer({ storage: multer.memoryStorage() });
+const { MongoClient } = require('mongodb');
 const db = mongoose.connection;
+const { Binary } = require('mongodb');
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
   console.log("Database connected!");
@@ -16,9 +19,12 @@ db.once('open', function() {
 const reviewSchema = new mongoose.Schema({
   name: String,
   description: String,
-  placeId: String, 
+  placeId: String,
+  image: {
+    data: Buffer,
+    contentType: String
+  }
 });
-
 const Review = mongoose.model('Review', reviewSchema);
 
 app.get('/', (req, res) => {
@@ -98,7 +104,24 @@ app.get('/allreviews', (req, res) => {
       res.status(500).send(`Error while fetching all reviews: ${error.message}`);
     });
 });
-
+app.post('/camera', upload.single('blob'), async (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ error: 'No file uploaded' });
+  }
+  try {
+    const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
+    await client.connect();
+    const collection = client.db("test").collection("images"); // replace with your DB name and collection name
+    const image = new Binary(req.file.buffer); // convert buffer to Binary data type
+    const result = await collection.insertOne({ image });
+    console.log('Image inserted:', result);
+    res.json({ status: 'Upload success', _id: result.insertedId });
+    client.close();
+  } catch (error) {
+    console.error('Upload failed:', error);
+    res.status(500).json({ error: 'Upload failed' });
+  }
+});
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });

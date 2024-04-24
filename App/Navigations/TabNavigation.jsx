@@ -23,6 +23,7 @@ export function ReviewStack() {
   )
 }
 const Tab = createBottomTabNavigator();
+
  function TabNavigation() {
   return (
     <Tab.Navigator screenOptions={{
@@ -77,8 +78,6 @@ const Tab = createBottomTabNavigator();
 
 export default function Navigation() {
   return (
-
       <TabNavigation/>
-
   )
 }

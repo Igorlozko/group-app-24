@@ -8,7 +8,8 @@ import TabNavigation from './App/Navigations/TabNavigation';
 import * as Location from 'expo-location';
 import { useEffect, useState } from 'react';
 import { UserLocationContext } from './App/Context/UserLocationContext';
-
+import { AppRegistry } from 'react-native';
+import { DrawerGroup } from './App/Navigations/TabNavigation';
 
 
 const tokenCache = {
@@ -90,7 +91,7 @@ export default function App() {
     </ClerkProvider>
   );
 }
-
+AppRegistry.registerComponent('main', () => App);
 const styles = StyleSheet.create({
   container: {
     flex: 1,
