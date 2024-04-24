@@ -72,12 +72,21 @@ export default function PlaceItem({ place }) {
     
     const sendFavoriteToBackend = async (place) => {
       try {
+        const imageUrl = place.photos && place.photos.length > 0
+          ? `${PLACE_PHOTO_BASE_URL}?maxheight=800&maxwidth=1200&photoreference=${place.photos[0].photo_reference}&key=${GlobalApi.API_KEY}`
+          : null;
+    
+        const placeWithImage = {
+          ...place,
+          imageUrl,
+        };
+    
         await fetch('https://b8e0-193-1-57-3.ngrok-free.app/favorite', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify(place),
+          body: JSON.stringify(placeWithImage),
         });
         console.log('Place data sent to backend successfully');
       } catch (error) {
