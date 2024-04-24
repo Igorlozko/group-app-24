@@ -11,6 +11,7 @@ import Review from '../Screen/Reviews/Review';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { FontAwesome5 } from '@expo/vector-icons';
+
 const ReviewNavigator =createNativeStackNavigator();
 import Camera from '../Screen/Camera/Camera';
 
@@ -23,6 +24,7 @@ export function ReviewStack() {
   )
 }
 const Tab = createBottomTabNavigator();
+
  function TabNavigation() {
   return (
     <Tab.Navigator screenOptions={{
@@ -52,6 +54,16 @@ const Tab = createBottomTabNavigator();
   }}
 />
 <Tab.Screen
+ name='Camera'
+ component={Camera}
+ options={{
+  tabBarLabel:'Camera',
+  tabBarIcon:({ size, focused }) => (
+    <AntDesign name={focused ? "camera" : "camerao"} size={size} color='#000' />
+  )
+}}
+/>
+<Tab.Screen
   name='profile'
   component={ProfileScreen}
   options={{
@@ -61,24 +73,13 @@ const Tab = createBottomTabNavigator();
     )
   }}
 />
-<Tab.Screen
- name='Camera'
- component={Camera}
- options={{
-  tabBarLabel:'Account',
-  tabBarIcon:({ size, focused }) => (
-    <FontAwesome name={focused ? "user" : "user-o"} size={size} color='#1f5bcc' />
-  )
-}}
-/>
+
     </Tab.Navigator>
   )
 }
 
 export default function Navigation() {
   return (
-
       <TabNavigation/>
-
   )
 }
