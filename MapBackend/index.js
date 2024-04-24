@@ -28,14 +28,14 @@ const reviewSchema = new mongoose.Schema({
 const Review = mongoose.model('Review', reviewSchema);
 
 
-const favoritePlaceSchema = new mongoose.Schema({
+const FavoritePlaceSchema = new mongoose.Schema({
   placeId: String,
   name: String,
   description: String,
-  image: String
+  imageUrl: String
 });
 
-const FavoritePlace = mongoose.model('FavoritePlace', favoritePlaceSchema);
+const FavoritePlace = mongoose.model('FavoritePlace', FavoritePlaceSchema);
 
 app.get('/', (req, res) => {
     res.send('Hello, World!');
@@ -139,11 +139,12 @@ app.post('/favorite', (req, res) => {
 
   // Create a new document from the FavoritePlace model
   const favoritePlace = new FavoritePlace(place);
-
+  console.log('Received data:', place);
   // Save the document to the database
   favoritePlace.save()
-    .then(() => {
+    .then((result) => {
       console.log('Added favorite place:', place);
+      console.log('Saved document:', result);
       console.log('The place has been successfully added to the favorites in the database.');
       res.json({ message: 'Place added to favorites successfully' });
     })
