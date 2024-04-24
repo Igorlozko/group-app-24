@@ -54,19 +54,34 @@ export default function PlaceItem({ place }) {
         console.log("Notification permissions granted");
       }
     };
-  
     const handleAddToFavourites = () => {
       console.log("Toggling favorites");
       setIsFavorite(!isFavorite);
     
       if (!isFavorite) {
-        // Add logic for adding to favorites
+   
         console.log("Added to favorites");
         sendNotification("Added to Favorites");
+        sendFavoriteToBackend(place); // Send place data to backend
       } else {
-        // Add logic for removing from favorites
+       
         console.log("Removed from favorites");
         sendNotification("Removed from Favorites");
+      }
+    };
+    
+    const sendFavoriteToBackend = async (place) => {
+      try {
+        await fetch('https://b8e0-193-1-57-3.ngrok-free.app/favorite', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(place),
+        });
+        console.log('Place data sent to backend successfully');
+      } catch (error) {
+        console.error('Error sending place data to backend:', error);
       }
     };
     
