@@ -59,14 +59,12 @@ export default function PlaceItem({ place }) {
       setIsFavorite(!isFavorite);
     
       if (!isFavorite) {
-   
         console.log("Added to favorites");
-        sendNotification("Added to Favorites");
+        sendNotification("Added to Favorites", place.name);
         sendFavoriteToBackend(place); // Send place data to backend
       } else {
-       
         console.log("Removed from favorites");
-        sendNotification("Removed from Favorites");
+        sendNotification("Removed from Favorites", place.name);
       }
     };
     
@@ -94,12 +92,12 @@ export default function PlaceItem({ place }) {
       }
     };
     
-    const sendNotification = async (notificationText) => {
+    const sendNotification = async (notificationText, placeName) => {
       console.log("Sending notification");
       
       const notificationContent = {
         title: notificationText,
-        body: 'This place has been ' + notificationText.toLowerCase() + '!',
+        body: `${placeName} has been ${notificationText.toLowerCase()}!`,
       };
     
       try {
