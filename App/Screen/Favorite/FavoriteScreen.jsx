@@ -7,7 +7,7 @@ const FavoriteScreen = () => {
   const [refreshing, setRefreshing] = useState(false);
 
   const fetchFavorites = () => {
-    fetch('https://b8e0-193-1-57-3.ngrok-free.app/favorites')
+    fetch('https://aa5c-193-1-57-3.ngrok-free.app/favorites')
       .then(response => response.json())
       .then(data => setFavorites(data))
       .catch(error => console.error('Error while fetching favorite places:', error))

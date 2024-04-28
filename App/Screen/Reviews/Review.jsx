@@ -11,7 +11,7 @@ function Review({route}) {
   const [reviews, setReviews] = useState([]);
   const { user } = useUser();
   useEffect(() => {
-    fetch(`https://b8e0-193-1-57-3.ngrok-free.app/reviews?placeId=${route.params.placeId}`)
+    fetch(`https://aa5c-193-1-57-3.ngrok-free.app/reviews?placeId=${route.params.placeId}`)
       .then(response => response.json())
       .then(data => {
         console.log('Received data:', data);
@@ -26,7 +26,7 @@ function Review({route}) {
       return;
     }
   
-    const response = await fetch('https://b8e0-193-1-57-3.ngrok-free.app/reviews', {
+    const response = await fetch('https://aa5c-193-1-57-3.ngrok-free.app/reviews', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

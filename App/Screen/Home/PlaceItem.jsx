@@ -79,7 +79,7 @@ export default function PlaceItem({ place }) {
           imageUrl,
         };
     
-        await fetch('https://b8e0-193-1-57-3.ngrok-free.app/favorite', {
+        await fetch('https://aa5c-193-1-57-3.ngrok-free.app/favorite', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

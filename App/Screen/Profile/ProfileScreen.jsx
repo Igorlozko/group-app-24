@@ -30,7 +30,7 @@ export default function ProfileScreen() {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch('https://b8e0-193-1-57-3.ngrok-free.app/allreviews')
+    fetch('https://aa5c-193-1-57-3.ngrok-free.app/allreviews')
       .then(response => response.json())
       .then(data => {
         console.log(data); // Log the received data
